@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite errors="0" failures="0" hostname="GARCIA-F" name="AUSA.ausaCrearPartes" skipped="0" tests="1" time="97.788" timestamp="2017-03-09T16:16:01">
+  <properties>
+    <property name="java.vendor" value="Oracle Corporation" />
+    <property name="env.RUN_DISPLAY_URL" value="http://localhost:8080/job/Tecsidel_ITS/default/1/display/redirect" />
+    <property name="env.JENKINS_SERVER_COOKIE" value="5e3779d8b1090235" />
+    <property name="sun.java.launcher" value="SUN_STANDARD" />
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers" />
+    <property name="env.BASE" value="C:\Program Files (x86)\Jenkins" />
+    <property name="env.PROMPT" value="$P$G" />
+    <property name="os.name" value="Windows 10" />
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_121\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_121\jre\classes" />
+    <property name="env.COMPUTERNAME" value="GARCIA-F" />
+    <property name="env.JOB_DISPLAY_URL" value="http://localhost:8080/job/Tecsidel_ITS/default/display/redirect" />
+    <property name="env.CommonProgramW6432" value="C:\Program Files\Common Files" />
+    <property name="env.ALLUSERSPROFILE" value="C:\ProgramData" />
+    <property name="sun.desktop" value="windows" />
+    <property name="java.vm.specification.vendor" value="Oracle Corporation" />
+    <property name="ant.home" value="C:/Users/GARCIAF/Desktop/eclipse/plugins/org.apache.ant_1.9.6.v201510161327/bin" />
+    <property name="java.runtime.version" value="1.8.0_121-b13" />
+    <property name="env.BUILD_DISPLAY_NAME" value="#1" />
+    <property name="user.name" value="GARCIA-F$" />
+    <property name="user.language" value="es" />
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_121\jre\bin" />
+    <property name="ant.project.default-target" value="build" />
+    <property name="ant.file.Tecsidel_ITS" value="C:\Users\GARCIAF\workspace\Tecsidel_ITS\build.xml" />
+    <property name="ant.project.name" value="Tecsidel_ITS" />
+    <property name="java.version" value="1.8.0_121" />
+    <property name="env.PROCESSOR_IDENTIFIER" value="Intel64 Family 6 Model 78 Stepping 3, GenuineIntel" />
+    <property name="user.timezone" value="" />
+    <property name="env.NODE_NAME" value="master" />
+    <property name="ant.file.type.Tecsidel_ITS" value="file" />
+    <property name="env.TEMP" value="C:\Windows\TEMP" />
+    <property name="sun.arch.data.model" value="64" />
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_121\jre\lib\endorsed" />
+    <property name="env._JAVACMD" value="C:\Program Files\Java\jdk1.8.0_121\bin\java.exe" />
+    <property name="sun.cpu.isalist" value="amd64" />
+    <property name="env.JOB_BASE_NAME" value="default" />
+    <property name="sun.jnu.encoding" value="Cp1252" />
+    <property name="file.encoding.pkg" value="sun.io" />
+    <property name="ECLIPSE_HOME" value="../../Desktop/eclipse/" />
+    <property name="file.separator" value="\" />
+    <property name="java.specification.name" value="Java Platform API Specification" />
+    <property name="java.class.version" value="52.0" />
+    <property name="user.country" value="ES" />
+    <property name="env.BUILD_NUMBER" value="1" />
+    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_121\jre" />
+    <property name="env.PSModulePath" value="C:\Program Files\WindowsPowerShell\Modules;C:\Windows\system32\WindowsPowerShell\v1.0\Modules;C:\Program Files (x86)\Microsoft SQL Server\130\Tools\PowerShell\Modules\;C:\Program Files (x86)\Microsoft SQL Server\120\Tools\PowerShell\Modules\" />
+    <property name="env.APPDATA" value="C:\Windows\system32\config\systemprofile\AppData\Roaming" />
+    <property name="env.PUBLIC" value="C:\Users\Public" />
+    <property name="java.vm.info" value="mixed mode" />
+    <property name="env.ComSpec" value="C:\Windows\system32\cmd.exe" />
+    <property name="env.OS" value="Windows_NT" />
+    <property name="env.CommonProgramFiles" value="C:\Program Files\Common Files" />
+    <property name="ant.file" value="C:\Users\GARCIAF\workspace\Tecsidel_ITS\build.xml" />
+    <property name="os.version" value="10.0" />
+    <property name="env.ProgramW6432" value="C:\Program Files" />
+    <property name="env._USE_CLASSPATH" value="no" />
+    <property name="env.HUDSON_COOKIE" value="842c40fd-5f61-44a3-bd10-dd8c9af5e395" />
+    <property name="path.separator" value=";" />
+    <property name="java.vm.version" value="25.121-b13" />
+    <property name="user.variant" value="" />
+    <property name="env.USERPROFILE" value="C:\Windows\system32\config\systemprofile" />
+    <property name="ant.library.dir" value="C:\Users\GARCIAF\Desktop\eclipse\plugins\org.apache.ant_1.9.6.v201510161327\bin\lib" />
+    <property name="junit.output.dir" value="junit" />
+    <property name="env.RUN_CHANGES_DISPLAY_URL" value="http://localhost:8080/job/Tecsidel_ITS/default/1/display/redirect?page=changes" />
+    <property name="env.JOB_NAME" value="Tecsidel_ITS/default" />
+    <property name="env.JAVA_HOME" value="C:\Program Files\Java\jdk1.8.0_121" />
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob" />
+    <property name="env.TMP" value="C:\Windows\TEMP" />
+    <property name="env.WINSW_EXECUTABLE" value="C:\Program Files (x86)\Jenkins\jenkins.exe" />
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle" />
+    <property name="env.SERVICE_ID" value="Jenkins" />
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit" />
+    <property name="user.script" value="" />
+    <property name="env.HUDSON_URL" value="http://localhost:8080/" />
+    <property name="env.BUILD_TAG" value="jenkins-Tecsidel_ITS-default-1" />
+    <property name="user.home" value="C:\Windows\system32\config\systemprofile" />
+    <property name="target" value="1.8" />
+    <property name="env.JENKINS_HOME" value="C:\Program Files (x86)\Jenkins" />
+    <property name="env.VS140COMNTOOLS" value="C:\Program Files (x86)\Microsoft Visual Studio 14.0\Common7\Tools\" />
+    <property name="env.JOB_URL" value="http://localhost:8080/job/Tecsidel_ITS/default/" />
+    <property name="env.ProgramData" value="C:\ProgramData" />
+    <property name="env.ProgramFiles(x86)" value="C:\Program Files (x86)" />
+    <property name="java.specification.vendor" value="Oracle Corporation" />
+    <property name="env.NUMBER_OF_PROCESSORS" value="4" />
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_121\jre\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files\Java\jdk1.8.0_121/bin;C:\Program Files\Java\jdk1.8.0_121/bin;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Microsoft SQL Server\Client SDK\ODBC\130\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\130\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\130\Tools\Binn\ManagementStudio\;C:\Program Files (x86)\Panda Security\WaAgent\Common;C:\Program Files (x86)\Silk\Silk Central 17.0 Execution Server\bin;C:\Program Files (x86)\Silk\Silk Central 17.0\bin;C:\Program Files (x86)\Microsoft SQL Server\100\Tools\Binn\;C:\Program Files\Microsoft SQL Server\100\Tools\Binn\;C:\Program Files\Microsoft SQL Server\100\DTS\Binn\;C:\Program Files\Git\cmd;C:\Program Files (x86)\Skype\Phone\;C:\Windows\system32\config\systemprofile\.dnx\bin;C:\Program Files\Microsoft DNX\Dnvm\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files (x86)\Windows Kits\10\Windows Performance Toolkit\;;." />
+    <property name="java.vendor.url" value="http://java.oracle.com/" />
+    <property name="env.HUDSON_HOME" value="C:\Program Files (x86)\Jenkins" />
+    <property name="java.vm.vendor" value="Oracle Corporation" />
+    <property name="env.HUDSON_SERVER_COOKIE" value="5e3779d8b1090235" />
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment" />
+    <property name="java.class.path" value="C:\Users\GARCIAF\workspace\Tecsidel_ITS\bin;C:\Users\GARCIAF\workspace\Tecsidel_ITS\lib\cglib-nodep-3.2.4.jar;C:\Users\GARCIAF\workspace\Tecsidel_ITS\lib\commons-codec-1.10.jar;C:\Users\GARCIAF\workspace\Tecsidel_ITS\lib\commons-exec-1.3.jar;C:\Users\GARCIAF\workspace\Tecsidel_ITS\lib\commons-io-2.5.jar;C:\Users\GARCIAF\workspace\Tecsidel_ITS\lib\commons-lang3-3.5.jar;C:\Users\GARCIAF\workspace\Tecsidel_ITS\lib\commons-logging-1.2.jar;C:\Users\GARCIAF\workspace\Tecsidel_ITS\lib\cssparser-0.9.21.jar;C:\Users\GARCIAF\workspace\Tecsidel_ITS\lib\gson-2.3.1.jar;C:\Users\GARCIAF\workspace\Tecsidel_ITS\lib\guava-21.0.jar;C:\Users\GARCIAF\workspace\Tecsidel_ITS\lib\hamcrest-core-1.3.jar;C:\Users\GARCIAF\workspace\Tecsidel_ITS\lib\hamcrest-library-1.3.jar;C:\Users\GARCIAF\workspace\Tecsidel_ITS\lib\htmlunit-2.24.jar;C:\Users\GARCIAF\workspace\Tecsidel_ITS\lib\htmlunit-core-js-2.23.jar;C:\Users\GARCIAF\workspace\Tecsidel_ITS\lib\htmlunit-driver-2.24.jar;C:\Users\GARCIAF\workspace\Tecsidel_ITS\lib\httpclient-4.5.2.jar;C:\Users\GARCIAF\workspace\Tecsidel_ITS\lib\httpcore-4.4.4.jar;C:\Users\GARCIAF\workspace\Tecsidel_ITS\lib\httpmime-4.5.2.jar;C:\Users\GARCIAF\workspace\Tecsidel_ITS\lib\javax.servlet-api-3.1.0.jar;C:\Users\GARCIAF\workspace\Tecsidel_ITS\lib\jetty-io-9.4.1.v20170120.jar;C:\Users\GARCIAF\workspace\Tecsidel_ITS\lib\jetty-util-9.4.1.v20170120.jar;C:\Users\GARCIAF\workspace\Tecsidel_ITS\lib\jna-4.1.0.jar;C:\Users\GARCIAF\workspace\Tecsidel_ITS\lib\jna-platform-4.1.0.jar;C:\Users\GARCIAF\workspace\Tecsidel_ITS\lib\junit-4.12.jar;C:\Users\GARCIAF\workspace\Tecsidel_ITS\lib\neko-htmlunit-2.24.jar;C:\Users\GARCIAF\workspace\Tecsidel_ITS\lib\phantomjsdriver-1.4.0.jar;C:\Users\GARCIAF\workspace\Tecsidel_ITS\lib\sac-1.3.jar;C:\Users\GARCIAF\workspace\Tecsidel_ITS\lib\selenium-server-standalone-3.2.0.jar;C:\Users\GARCIAF\workspace\Tecsidel_ITS\lib\serializer-2.7.2.jar;C:\Users\GARCIAF\workspace\Tecsidel_ITS\lib\websocket-api-9.2.20.v20161216.jar;C:\Users\GARCIAF\workspace\Tecsidel_ITS\lib\websocket-client-9.2.20.v20161216.jar;C:\Users\GARCIAF\workspace\Tecsidel_ITS\lib\websocket-common-9.2.20.v20161216.jar;C:\Users\GARCIAF\workspace\Tecsidel_ITS\lib\xalan-2.7.2.jar;C:\Users\GARCIAF\workspace\Tecsidel_ITS\lib\xercesImpl-2.11.0.jar;C:\Users\GARCIAF\workspace\Tecsidel_ITS\lib\xml-apis-1.4.01.jar;C:\Users\GARCIAF\Desktop\eclipse\plugins\org.apache.ant_1.9.6.v201510161327\bin\lib\ant-launcher.jar;C:\Users\GARCIAF\Desktop\eclipse\plugins\org.apache.ant_1.9.6.v201510161327\bin\lib\ant.jar;C:\Users\GARCIAF\Desktop\eclipse\plugins\org.apache.ant_1.9.6.v201510161327\bin\lib\ant-junit.jar;C:\Users\GARCIAF\Desktop\eclipse\plugins\org.apache.ant_1.9.6.v201510161327\bin\lib\ant-junit4.jar" />
+    <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner AUSA.ausaCrearPartes skipNonTests=false filtertrace=true haltOnError=false haltOnFailure=false formatter=org.apache.tools.ant.taskdefs.optional.junit.OutErrSummaryJUnitResultFormatter showoutput=false outputtoformatters=true logfailedtests=true threadid=0 logtestlistenerevents=false formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,C:\Users\GARCIAF\workspace\Tecsidel_ITS\junit\TEST-AUSA.ausaCrearPartes.xml crashfile=C:\Users\GARCIAF\workspace\Tecsidel_ITS\junitvmwatcher2450597664652925599.properties propsfile=C:\Users\GARCIAF\workspace\Tecsidel_ITS\junit3940314299047579568.properties" />
+    <property name="ant.version" value="Apache Ant(TM) version 1.10.1 compiled on February 2 2017" />
+    <property name="env.EXECUTOR_NUMBER" value="1" />
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification" />
+    <property name="ant.file.type" value="file" />
+    <property name="env.windir" value="C:\Windows" />
+    <property name="env.PROCESSOR_ARCHITECTURE" value="AMD64" />
+    <property name="java.vm.specification.version" value="1.8" />
+    <property name="sun.cpu.endian" value="little" />
+    <property name="sun.os.patch.level" value="" />
+    <property name="debuglevel" value="source,lines,vars" />
+    <property name="env.ANT_HOME" value="C:/Users/GARCIAF/Desktop/eclipse/plugins/org.apache.ant_1.9.6.v201510161327/bin" />
+    <property name="env.ProgramFiles" value="C:\Program Files" />
+    <property name="env.BUILD_URL" value="http://localhost:8080/job/Tecsidel_ITS/default/1/" />
+    <property name="env.PROCESSOR_REVISION" value="4e03" />
+    <property name="java.io.tmpdir" value="C:\Windows\TEMP\" />
+    <property name="env.CommonProgramFiles(x86)" value="C:\Program Files (x86)\Common Files" />
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/" />
+    <property name="env.SystemRoot" value="C:\Windows" />
+    <property name="os.arch" value="amd64" />
+    <property name="env.ANT_CMD_LINE_ARGS" value=" -file build.xml ausaVerPartes ausaCrearPartes" />
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment" />
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_121\jre\lib\ext;C:\Windows\Sun\Java\lib\ext" />
+    <property name="env.BUILD_ID" value="1" />
+    <property name="user.dir" value="C:\Users\GARCIAF\workspace\Tecsidel_ITS" />
+    <property name="env.LOCALAPPDATA" value="C:\Windows\system32\config\systemprofile\AppData\Local" />
+    <property name="line.separator" value="&#xd;&#xa;" />
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM" />
+    <property name="env.JENKINS_URL" value="http://localhost:8080/" />
+    <property name="env.PATHEXT" value=".COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC" />
+    <property name="env.Path" value="C:\Program Files\Java\jdk1.8.0_121/bin;C:\Program Files\Java\jdk1.8.0_121/bin;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Microsoft SQL Server\Client SDK\ODBC\130\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\130\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\130\Tools\Binn\ManagementStudio\;C:\Program Files (x86)\Panda Security\WaAgent\Common;C:\Program Files (x86)\Silk\Silk Central 17.0 Execution Server\bin;C:\Program Files (x86)\Silk\Silk Central 17.0\bin;C:\Program Files (x86)\Microsoft SQL Server\100\Tools\Binn\;C:\Program Files\Microsoft SQL Server\100\Tools\Binn\;C:\Program Files\Microsoft SQL Server\100\DTS\Binn\;C:\Program Files\Git\cmd;C:\Program Files (x86)\Skype\Phone\;C:\Windows\system32\config\systemprofile\.dnx\bin;C:\Program Files\Microsoft DNX\Dnvm\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files (x86)\Windows Kits\10\Windows Performance Toolkit\;" />
+    <property name="basedir" value="C:\Users\GARCIAF\workspace\Tecsidel_ITS" />
+    <property name="ant.java.version" value="1.8" />
+    <property name="ant.core.lib" value="C:\Users\GARCIAF\Desktop\eclipse\plugins\org.apache.ant_1.9.6.v201510161327\bin\lib\ant.jar" />
+    <property name="env.USERNAME" value="GARCIA-F$" />
+    <property name="env.SystemDrive" value="C:" />
+    <property name="source" value="1.8" />
+    <property name="file.encoding" value="Cp1252" />
+    <property name="env.WORKSPACE" value="C:\Users\GARCIAF\workspace\Tecsidel_ITS\default" />
+    <property name="env.USERDOMAIN" value="TECSIDEL" />
+    <property name="env.SILK_CONFIG_PATH" value="C:\ProgramData\Borland\Silk\SilkMeter\cfg" />
+    <property name="java.specification.version" value="1.8" />
+    <property name="env.=C:" value="C:\Users\GARCIAF\workspace\Tecsidel_ITS" />
+    <property name="ant.project.invoked-targets" value="ausaVerPartes,ausaCrearPartes" />
+    <property name="env.PROCESSOR_LEVEL" value="6" />
+    <property name="env.NODE_LABELS" value="master" />
+  </properties>
+  <testcase classname="AUSA.ausaCrearPartes" name="ausaIssuescreate" time="97.637" />
+  <system-out><![CDATA[ERROR EN CREAR PARTE: Existen errores en la página. Los errores pueden estar en los componentes minimizados.
+]]></system-out>
+  <system-err><![CDATA[Starting ChromeDriver 2.27.440174 (e97a722caafc2d3a8b807ee115bfb307f7d2cfd9) on port 28487
+Only local connections are allowed.
+mar 09, 2017 5:16:05 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFORMACIÓN: Detected dialect: OSS
+[29.214][WARNING]: screenshot failed, retrying
+]]></system-err>
+</testsuite>
