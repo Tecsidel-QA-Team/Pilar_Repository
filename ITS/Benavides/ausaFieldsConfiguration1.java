@@ -1,4 +1,4 @@
-package AUSA;
+package Benavides;
 
 import java.io.File;
 import java.sql.Timestamp;
@@ -14,7 +14,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.Select;
 
-public class ausaFieldsConfiguration {
+public class ausaFieldsConfiguration1 {
 	public static String comLabel= "ctl00_ContentZone_BtnAddComunication_IB_Label";
 	public static String vehLabel = "ctl00_ContentZone_BtnAddVehicle_IB_Label"; 
 	public static String perLabel = "ctl00_ContentZone_BtnAddPerson_IB_Label";
