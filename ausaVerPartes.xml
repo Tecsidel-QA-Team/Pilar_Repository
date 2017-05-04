@@ -3,18 +3,14 @@
               Any modifications will be overwritten.
               To include a user specific buildfile here, simply create one in the same
               directory with the processing instruction <?eclipse.ant.import?>
-              as the first entry and export the buildfile again. --><project basedir="." default="build" name="Tecsidel_ITS">
+              as the first entry and export the buildfile again. --><project basedir="." default="build" name="Pilar_Repository">
     <property environment="env"/>
     <property name="ECLIPSE_HOME" value="C:/Users/Garciaf/eclipse/committers-neon/eclipse/"/>
-    <property name="junit.output.dir" value="E:\workspace\Tecsidel_ITS\ausaVerPartes\junit"/>
+    <property name="junit.output.dir" value="E:\workspace\Pilar_Repository\ausaVerPartes\junit"/>
     <property name="debuglevel" value="source,lines,vars"/>
     <property name="target" value="1.8"/>
     <property name="source" value="1.8"/>
-    <path id="JUnit 4.libraryclasspath">
-        <pathelement location="C:/Users/Garciaf/.p2/pool/plugins/org.junit_4.12.0.v201504281640/junit.jar"/>
-        <pathelement location="C:/Users/Garciaf/.p2/pool/plugins/org.hamcrest.core_1.3.0.v201303031735.jar"/>
-    </path>
-    <path id="Tecsidel_ITS.classpath">
+    <path id="Pilar_Repository.classpath">
         <pathelement location="bin"/>
         <pathelement location="lib/cglib-nodep-3.2.4.jar"/>
         <pathelement location="lib/commons-codec-1.10.jar"/>
@@ -44,13 +40,13 @@
         <pathelement location="lib/sac-1.3.jar"/>
         <pathelement location="lib/selenium-server-standalone-3.3.1.jar"/>
         <pathelement location="lib/serializer-2.7.2.jar"/>
+        <pathelement location="lib/tools.jar"/>
         <pathelement location="lib/websocket-api-9.2.20.v20161216.jar"/>
         <pathelement location="lib/websocket-client-9.2.20.v20161216.jar"/>
         <pathelement location="lib/websocket-common-9.2.20.v20161216.jar"/>
         <pathelement location="lib/xalan-2.7.2.jar"/>
         <pathelement location="lib/xercesImpl-2.11.0.jar"/>
         <pathelement location="lib/xml-apis-1.4.01.jar"/>
-        <path refid="JUnit 4.libraryclasspath"/>
     </path>
     <target name="init">
         <mkdir dir="bin"/>
@@ -71,7 +67,7 @@
         <echo message="${ant.project.name}: ${ant.file}"/>
         <javac debug="true" debuglevel="${debuglevel}" destdir="bin" includeantruntime="false" source="${source}" target="${target}">
             <src path="ITS"/>
-            <classpath refid="Tecsidel_ITS.classpath"/>
+            <classpath refid="Pilar_Repository.classpath"/>
         </javac>
     </target>
     <target description="Build all projects which reference this project. Useful to propagate changes." name="build-refprojects"/>
@@ -94,7 +90,7 @@
             <formatter type="xml"/>
             <test name="AUSA.ausaVerPartes" todir="${junit.output.dir}"/>
             <jvmarg line="-ea"/>
-            <classpath refid="Tecsidel_ITS.classpath"/>
+            <classpath refid="Pilar_Repository.classpath"/>
         </junit>
     </target>
     <target name="junitreport">
