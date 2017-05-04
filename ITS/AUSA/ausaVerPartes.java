@@ -220,10 +220,13 @@ public class ausaVerPartes extends ausaFieldsConfiguration{
 	  					if (templeClass.equals ("generalDropdown")){
 	  						tempText = new Select(driver.findElement(By.id(templateSel))).getFirstSelectedOption();
 	  						tempText1 = tempText.getText();	  						
-	  					}
-	  				
+	  					}	  				
 	  					if (templeClass.equals("readonlyBox")){
-	  						tempText1 = templeClass = driver.findElement(By.id(templateSel)).getAttribute("value");
+	  						if (driver.findElements(By.id(templateSel)).size()!=0){
+	  							tempText1 = templeClass = driver.findElement(By.id(templateSel)).getAttribute("value");
+	  						}else{
+	  							tempText1 = templeClass = driver.findElement(By.id("ctl00_ContentZone_txt_template_box_data")).getAttribute("value");
+	  						}
 	  					}
 	  					sevText = new Select(driver.findElement(By.id("ctl00_ContentZone_cmb_severity_cmb_dropdown"))).getFirstSelectedOption();
 	  					sevText1 = sevText.getText();
