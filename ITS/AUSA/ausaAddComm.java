@@ -8,6 +8,7 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Random;
 import java.util.concurrent.TimeUnit;
+import AUSA.ausaFieldsConfiguration;
 import org.eclipse.jetty.util.Loader;
 import org.junit.*;
 import org.junit.Assert.*;
@@ -198,6 +199,8 @@ public class ausaAddComm extends ausaFieldsConfiguration{
 	  					driver.findElement(By.id("ctl00_ContentZone_ctrlComunication_txt_subject_box_data")).sendKeys("Created by Automation Script");
 	  					driver.findElement(By.id("ctl00_ContentZone_ctrlComunication_txt_comment_box_data")).sendKeys("This Communication was created by an automation script for testing purpose");
 	  					Thread.sleep(1000);
+	  					//takeScreenShot("addCommScr_"+timet+".jpeg");
+	  					Thread.sleep(500);
 	  					
 	  				}
 	  				
@@ -240,8 +243,7 @@ public class ausaAddComm extends ausaFieldsConfiguration{
 	  						 			}
 	  						 	matterCom = driver.findElement(By.id("ctl00_ContentZone_ctrlComunication_txt_subject_box_data")).getAttribute("value");
 	  						 	commentCom = driver.findElement(By.id("ctl00_ContentZone_ctrlComunication_txt_comment_box_data")).getAttribute("value");
-	  						 	Thread.sleep(1000);
-	  						 	takeScreenShot("addCommScreen_"+timet+".jpeg");
+	  						 	Thread.sleep(1000);	  						 	  						 
 	  						 	driver.findElement(By.id("ctl00_ButtonsZone_BtnSave_IB_Label")).click();
 	  						 	Thread.sleep(500);
 	  							}
