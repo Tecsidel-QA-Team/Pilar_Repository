@@ -161,7 +161,9 @@ public class ausaVerPartes extends ausaFieldsConfiguration{
 		            }
 		            catch (Exception e)
 		            {
-		                e.printStackTrace();//System.out.println(e.getStackTrace());
+		            	
+		            	e.printStackTrace();
+		            	fail();//System.out.println(e.getStackTrace());
 		                return;
 		            }
 	  }   
