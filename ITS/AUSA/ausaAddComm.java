@@ -252,10 +252,28 @@ public class ausaAddComm extends ausaFieldsConfiguration{
 	  						Thread.sleep(500);
 	  						verFile = "addComArchivo_";
 	  						File result = new File("E:\\Selenium\\"+verFile+timet+".txt");
-	  						FileOutputStream fis = new FileOutputStream(new File(result.toString()));	  					
+	  						File resultTmp = new File("E:\\workspace\\Pilar_Repository\\ausaAgregarComPartes\\attachments\\"+verFile+timet+".txt");
+	  						File resulTmp = new File("E:\\workspace\\Pilar_Repository\\ausaAgregarComPartes\\attachments\\");
+	  						if (resulTmp.isDirectory()){
+	  							File [] filelist = resulTmp.listFiles();
+	  							if (filelist.length>0){
+	  								for (int i = 0; i<filelist.length;i++){
+	  								File delfile = filelist[i];
+	  									if (delfile.getName().contains(".txt")){
+	  										delfile.delete();
+	  									}
+	  							}
+	  						}
+	  						}	else{
+	  							System.out.println("no existe");
+	  						}
+	  						FileOutputStream fis = new FileOutputStream(new File(result.toString()));
+	  						FileOutputStream fis2 = new FileOutputStream(new File(resultTmp.toString()));
 	  						PrintStream out = new PrintStream(fis);
+	  						PrintStream out2 = new PrintStream(fis2);
 	  						PrintStream old = System.out;
 	  						System.setOut(out);
+	  						System.setOut(out2);
 	  						System.out.println ("Titulo de Comunicación: "+comTitle);
 						 	System.out.println("Tipo de Comunicación: "+newComSel);
 						 	System.out.println("Medio de Comunicación: "+comMeanSel);
