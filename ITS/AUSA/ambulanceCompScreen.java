@@ -16,7 +16,8 @@ public class ambulanceCompScreen extends ausaFieldsConfiguration{
 		  driver.findElement(By.id(ambLabel)).click();
 		  Thread.sleep(1000);
 		  driver.switchTo().frame(0);
-		  takeScreenShot("ambulancia.jpg");
+		  takeScreenShot("E:\\Selenium\\","ambulancia"+timet+".jpg");
+		  takeScreenShot("E:\\workspace\\Pilar_Repository\\ausaModificaPartes\\attachments\\","ambulancia.jpg");
 		  Thread.sleep(1000);
 			driver.findElement(By.id("ctl00_ContentZone_ctrlAmbulance_txt_Title_box_data")).clear();
 			driver.findElement(By.id("ctl00_ContentZone_ctrlAmbulance_txt_Title_box_data")).sendKeys("Ambulance"+" - "+ranNumbr(1,99)+" QA" );

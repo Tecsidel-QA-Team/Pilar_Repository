@@ -69,9 +69,6 @@ public class ausaAddComm extends ausaFieldsConfiguration{
 		  try{
 			  				  		
 			  			Actions action = new Actions (driver);
-			  			
-			  			
-			  			
 			  			driver.get(baseUrl);
 			  			if (driver.getPageSource().contains("No se puede acceder a este sitio web") || driver.getPageSource().contains("Service Unavailable"))
 		                {                    
@@ -79,12 +76,15 @@ public class ausaAddComm extends ausaFieldsConfiguration{
 		                    return;
 		                }			  			
 			  			Thread.sleep(2000);
-			  			takeScreenShot("ausaLoginPage.jpeg");
+			  			borrarArchivosTemp("E:\\workspace\\Pilar_Repository\\ausaCrearPartes\\attachments\\");			  			
+			  			takeScreenShot("E:\\Selenium\\","ausaLoginPage"+timet+".jpg");
+			  			takeScreenShot("E:\\workspace\\Pilar_Repository\\ausaAgregarComPartes\\attachments\\","ausaLoginPage_"+timet+".jpg");
 			  	        driver.findElement(By.id("BoxLogin")).sendKeys("calidad");
 		                driver.findElement(By.id("BoxPassword")).sendKeys("calidad");
 		                driver.findElement(By.id("BtnLogin")).click();
 		                Thread.sleep(3000);
-		                takeScreenShot("AusamP.jpeg");
+		                takeScreenShot("E:\\Selenium\\","AusamP"+timet+".jpg");
+			  			takeScreenShot("E:\\workspace\\Pilar_Repository\\ausaAgregarComPartes\\attachments\\","AusamP"+timet+".jpg");		                
 		                String currentWindowHandle = driver.getWindowHandle();		                
 		                String lPartes = driver.findElement(By.xpath("//div[7] / div / ul / li[5] / a")).getText();		                
 		                Thread.sleep(1000);
@@ -94,8 +94,9 @@ public class ausaAddComm extends ausaFieldsConfiguration{
 		                String mPartes = driver.findElement(By.xpath("// div[7] / div / ul / li[5] / ul / li / a")).getText();		                
 		                driver.findElement(By.linkText(mPartes)).click();
 		                Thread.sleep(8000);
-		                
-		                takeScreenShot("AusapP"+timet+".jpeg");
+		                takeScreenShot("E:\\Selenium\\","AusapP"+timet+".jpeg");
+			  			takeScreenShot("E:\\workspace\\Pilar_Repository\\ausaAgregarComPartes\\attachments\\","AusapP"+timet+".jpg");
+		               
 		                
 		                if (lPartes.equals("Issues")){
 		                	Types = "All";
@@ -112,7 +113,6 @@ public class ausaAddComm extends ausaFieldsConfiguration{
 		               }
 							Object Partes1 = mPartes;
 							Assert.assertEquals(mPartes, Partes1);
-							
 		                Thread.sleep(3000);		                		                		                
 		                elementClick("ctl00_ButtonsZone_BtnSearch_IB_Label");
 		                Thread.sleep(6000);                
@@ -141,7 +141,8 @@ public class ausaAddComm extends ausaFieldsConfiguration{
 		                return;
 		            }
 	  }   
-	  				public static void buscarElement() throws Exception{
+	  				
+					public static void buscarElement() throws Exception{
 	  					Thread.sleep(1000);
 	  					WebElement table = driver.findElement(By.cssSelector("tbody tr td table#tableIssues.generalTable"));
 	  					List <WebElement> tableCount = table.findElements(By.tagName("tr"));
@@ -252,21 +253,7 @@ public class ausaAddComm extends ausaFieldsConfiguration{
 	  						Thread.sleep(500);
 	  						verFile = "addComArchivo_";
 	  						File result = new File("E:\\Selenium\\"+verFile+timet+".txt");
-	  						File resultTmp = new File("E:\\workspace\\Pilar_Repository\\ausaAgregarComPartes\\attachments\\"+verFile+timet+".txt");
-	  						File resulTmp = new File("E:\\workspace\\Pilar_Repository\\ausaAgregarComPartes\\attachments\\");
-	  						if (resulTmp.isDirectory()){
-	  							File [] filelist = resulTmp.listFiles();
-	  							if (filelist.length>0){
-	  								for (int i = 0; i<filelist.length;i++){
-	  								File delfile = filelist[i];
-	  									if (delfile.getName().contains(".txt")){
-	  										delfile.delete();
-	  									}
-	  							}
-	  						}
-	  						}	else{
-	  							System.out.println("no existe");
-	  						}
+	  						File resultTmp = new File("E:\\workspace\\Pilar_Repository\\ausaAgregarComPartes\\attachments\\"+verFile+timet+".txt");	  						
 	  						FileOutputStream fis = new FileOutputStream(new File(result.toString()));
 	  						FileOutputStream fis2 = new FileOutputStream(new File(resultTmp.toString()));
 	  						PrintStream out = new PrintStream(fis);

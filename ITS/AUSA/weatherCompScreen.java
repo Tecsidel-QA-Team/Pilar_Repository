@@ -10,8 +10,7 @@ public class weatherCompScreen extends ausaFieldsConfiguration{
 		  Thread.sleep(1000);
 		  driver.findElement(By.id(weaLabel)).click();
 		  Thread.sleep(1000);
-		  driver.switchTo().frame(0);
-		  takeScreenShot("clima.jpg");
+		  driver.switchTo().frame(0);		  
         Thread.sleep(1000);
         	if (driver.getPageSource().contains("Únicamente está permitido añadir un componente de tipo 'Tiempo' por parte.")){
         		driver.findElement(By.id("ctl00_ButtonsZone_BtnClose_IB_Label")).click();
@@ -27,6 +26,9 @@ public class weatherCompScreen extends ausaFieldsConfiguration{
 			selectDropDownClick("ctl00_ContentZone_ctrlWeather_cmb_visibility_cmb_dropdown");
 			driver.findElement(By.id("ctl00_ContentZone_ctrlWeather_txt_comment_box_data")).sendKeys("This was created by QA Automation Script");			
 			Thread.sleep(1000);
+			takeScreenShot("E:\\Selenium\\","Clima"+timet+".jpg");
+	  		takeScreenShot("E:\\workspace\\Pilar_Repository\\ausaModificaPartes\\attachments\\","Clima"+timet+".jpg");
+	  		Thread.sleep(1000);
 			driver.findElement(By.id("ctl00_ButtonsZone_BtnSave_IB_Label")).click();
 			Thread.sleep(2000);
 			System.out.println("El Componente Clima ha sido creado para la Parte No. "+partText);

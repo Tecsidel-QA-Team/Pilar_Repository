@@ -103,12 +103,15 @@ public class ausaCrearPartes extends ausaFieldsConfiguration{
             return;
         }			  			
 			Thread.sleep(2000);
-			takeScreenShot("ausaLoginPageCrearPartes"+timet+".jpeg");
-	        driver.findElement(By.id("BoxLogin")).sendKeys("calidad");
+			borrarArchivosTemp("E:\\workspace\\Pilar_Repository\\ausaCrearPartes\\attachments\\");
+		takeScreenShot("E:\\Selenium\\","ausaLoginPageCrearPartes"+timet+".jpg");
+  		takeScreenShot("E:\\workspace\\Pilar_Repository\\ausaCrearPartes\\attachments\\","ausaLoginPageCrearPartes"+timet+".jpg");			
+	    driver.findElement(By.id("BoxLogin")).sendKeys("calidad");
         driver.findElement(By.id("BoxPassword")).sendKeys("calidad");
         driver.findElement(By.id("BtnLogin")).click();
         Thread.sleep(3000);
-        takeScreenShot("AusamPCrearPartes"+timet+".jpeg");
+		takeScreenShot("E:\\Selenium\\","AusamPCrearPartes"+timet+".jpg");
+		takeScreenShot("E:\\workspace\\Pilar_Repository\\ausaCrearPartes\\attachments\\","AusamPCrearPartes"+timet+".jpg");			        
         currentWindowHandle = driver.getWindowHandle();		                
         lPartes = driver.findElement(By.xpath("//div[7] / div / ul / li[5] / a")).getText();		                
         Thread.sleep(1000);
@@ -117,8 +120,9 @@ public class ausaCrearPartes extends ausaFieldsConfiguration{
         Thread.sleep(2000);
         mPartes = driver.findElement(By.xpath("// div[7] / div / ul / li[5] / ul / li / a")).getText();		                
         driver.findElement(By.linkText(mPartes)).click();
-        Thread.sleep(8000);        
-        takeScreenShot("AusapPCrearPartes"+timet+".jpeg");
+        Thread.sleep(8000);
+        takeScreenShot("E:\\Selenium\\","AusapPCrearPartes"+timet+".jpg");
+		takeScreenShot("E:\\workspace\\Pilar_Repository\\ausaCrearPartes\\attachments\\","AusapPCrearPartes"+timet+".jpg");        
         ArrayList<String> wHandle = new ArrayList<String>(driver.getWindowHandles());
         
        for (String window : wHandle) {
@@ -130,7 +134,6 @@ public class ausaCrearPartes extends ausaFieldsConfiguration{
        }           
 			Object Partes1 = mPartes;
 			Assert.assertEquals(mPartes, Partes1);
-	
         driver.findElement(By.id(createBtn)).click();
         Thread.sleep(3000);
         selectDropDownClick(templateSel);
@@ -198,8 +201,10 @@ public class ausaCrearPartes extends ausaFieldsConfiguration{
             }else{
             	driver.findElement(By.id(observaT)).sendKeys("QA issue created by Automation Script"); //Observaciones
             }
-            
-            Thread.sleep(2000);
+            Thread.sleep(1000);
+            takeScreenShot("E:\\Selenium\\","crearPartesDataScr"+timet+".jpg");
+    		takeScreenShot("E:\\workspace\\Pilar_Repository\\ausaCrearPartes\\attachments\\","crearPartesDataScr"+timet+".jpg");
+            Thread.sleep(1500);
             grabarDatosFichero();
             Thread.sleep(1000);
             driver.findElement(By.id(issueCreateBtn)).click();
@@ -288,7 +293,7 @@ public class ausaCrearPartes extends ausaFieldsConfiguration{
 		Thread.sleep(500);
 		driver.findElement(By.id(subjectField)).sendKeys("Created by Automation Script");
 		driver.findElement(By.id(commentField)).sendKeys("This Communication was created by an automation script for testing purpose");
-		Thread.sleep(1000);
+		Thread.sleep(2000);
 		
 	}
 	public static void grabarDatosFichero() throws Exception{
@@ -414,12 +419,15 @@ public class ausaCrearPartes extends ausaFieldsConfiguration{
 			} else{
 				verFile = "crearPartesResultadosSuccess_";
 			}
-			
 			File result = new File("E:\\Selenium\\"+verFile+timet+".txt");			
-			FileOutputStream fis = new FileOutputStream(new File(result.toString()));	  					
-			PrintStream out = new PrintStream(fis);
-			PrintStream old = System.out;
-			System.setOut(out);
+			File resultTmp = new File("E:\\workspace\\Pilar_Repository\\ausaCrearPartes\\attachments\\"+verFile+timet+".txt");				
+				FileOutputStream fis = new FileOutputStream(new File(result.toString()));
+				FileOutputStream fis2 = new FileOutputStream(new File(resultTmp.toString()));
+				PrintStream out = new PrintStream(fis);
+				PrintStream out2 = new PrintStream(fis2);
+				PrintStream old = System.out;
+				System.setOut(out);
+				System.setOut(out2);
 			if (parteNumber!=null){
 				System.out.println("#Parte: "+parteNumber);
 			}									

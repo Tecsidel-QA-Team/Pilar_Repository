@@ -12,8 +12,7 @@ public class communicationCompScreen extends ausaFieldsConfiguration{
 		  Thread.sleep(1000);
 		  driver.findElement(By.id(comLabel)).click();
 		  Thread.sleep(1000);
-		  driver.switchTo().frame(0);
-		  takeScreenShot("communication.jpg");
+		  driver.switchTo().frame(0);		  
           Thread.sleep(1000);
 			driver.findElement(By.id("ctl00_ContentZone_ctrlComunication_txt_Title_box_data")).clear();
 			driver.findElement(By.id("ctl00_ContentZone_ctrlComunication_txt_Title_box_data")).sendKeys("Communication"+" - "+ranNumbr(1,99)+" QA" );
@@ -32,6 +31,10 @@ public class communicationCompScreen extends ausaFieldsConfiguration{
 			Thread.sleep(500);
 			driver.findElement(By.id("ctl00_ContentZone_ctrlComunication_txt_subject_box_data")).sendKeys("Created by Automation Script");
 			driver.findElement(By.id("ctl00_ContentZone_ctrlComunication_txt_comment_box_data")).sendKeys("This Communication was created by an automation script for testing purpose");
+			Thread.sleep(1000);
+			takeScreenShot("E:\\Selenium\\","Communication"+timet+".jpg");
+	  		takeScreenShot("E:\\workspace\\Pilar_Repository\\ausaModificaPartes\\attachments\\","Communication"+timet+".jpg");
+	  		Thread.sleep(1000);
 			driver.findElement(By.id("ctl00_ButtonsZone_BtnSave_IB_Label")).click();
 			Thread.sleep(2000);
 			System.out.println("El Componente Comunicación ha sido creado para la Parte No. "+partText);

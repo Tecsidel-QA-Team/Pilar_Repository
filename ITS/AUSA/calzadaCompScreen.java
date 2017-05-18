@@ -12,9 +12,8 @@ public class calzadaCompScreen extends ausaFieldsConfiguration{
 		  Thread.sleep(1000);
 		  driver.findElement(By.id(roadLabel)).click();
 		  Thread.sleep(1000);
-		  driver.switchTo().frame(0);
-		  takeScreenShot("calzada.jpg");
-        Thread.sleep(1000);        
+		  driver.switchTo().frame(0);		  
+		  Thread.sleep(1000);        
 			driver.findElement(By.id("ctl00_ContentZone_ctrlRoadway_txt_Title_box_data")).clear();
 			driver.findElement(By.id("ctl00_ContentZone_ctrlRoadway_txt_Title_box_data")).sendKeys("Calzada"+" - "+ranNumbr(1,99)+" QA" );
 			Thread.sleep(500);
@@ -31,6 +30,9 @@ public class calzadaCompScreen extends ausaFieldsConfiguration{
 			ranClick("ctl00_ContentZone_ctrlRoadway_mc_highwayDamage_ctl","0",ad,caMer);
 			driver.findElement(By.id("ctl00_ContentZone_ctrlRoadway_txt_comment_box_data")).sendKeys("This was created by QA Automation Script");			
 			Thread.sleep(1000);
+			takeScreenShot("E:\\Selenium\\","Calzada"+timet+".jpg");
+  	  		takeScreenShot("E:\\workspace\\Pilar_Repository\\ausaModificaPartes\\attachments\\","Calzada"+timet+".jpg");
+  	  	Thread.sleep(1000);
 			driver.findElement(By.id("ctl00_ButtonsZone_BtnSave_IB_Label")).click();
 			Thread.sleep(2000);
 			System.out.println("El Componente Calzada ha sido creado para la Parte No. "+partText);
@@ -42,13 +44,15 @@ class infoCompScreen extends ausaFieldsConfiguration{
 		Thread.sleep(1000);
 		  driver.findElement(By.id(infoLabel)).click();
 		  Thread.sleep(1000);
-		  driver.switchTo().frame(0);
-		  takeScreenShot("information.jpg");
-      Thread.sleep(1000);        
+		  driver.switchTo().frame(0);		  
+		  	Thread.sleep(1000);        
 			driver.findElement(By.id("ctl00_ContentZone_ctrlInsideInformation_txt_Title_box_data")).clear();
 			driver.findElement(By.id("ctl00_ContentZone_ctrlInsideInformation_txt_Title_box_data")).sendKeys("Información Interna"+" - "+ranNumbr(1,99)+" QA" );
 			Thread.sleep(500);
 			driver.findElement(By.id("ctl00_ContentZone_ctrlInsideInformation_txt_comment_box_data")).sendKeys("This was created by QA Automation Script");
+			Thread.sleep(1000);
+			takeScreenShot("E:\\Selenium\\","Information"+timet+".jpg");
+  	  		takeScreenShot("E:\\workspace\\Pilar_Repository\\ausaModificaPartes\\attachments\\","Information"+timet+".jpg");
 			Thread.sleep(1000);
 			driver.findElement(By.id("ctl00_ButtonsZone_BtnSave_IB_Label")).click();
 			Thread.sleep(2000);
@@ -62,8 +66,7 @@ class inconCompScreen extends ausaFieldsConfiguration{
 		Thread.sleep(1000);
 		  driver.findElement(By.id(inconLabel)).click();
 		  Thread.sleep(1000);
-		  driver.switchTo().frame(0);
-		  takeScreenShot("inconveniente.jpg");
+		  driver.switchTo().frame(0);		  
 		  Thread.sleep(1000);
 		  driver.findElement(By.id("ctl00_ContentZone_ctrlInconvenientShedule_txt_Title_box_data")).clear();
 		  driver.findElement(By.id("ctl00_ContentZone_ctrlInconvenientShedule_txt_Title_box_data")).sendKeys("Información Interna"+" - "+ranNumbr(1,99)+" QA" );
@@ -77,6 +80,11 @@ class inconCompScreen extends ausaFieldsConfiguration{
 		  driver.findElement(By.id("ctl00_ContentZone_ctrlInconvenientShedule_CheckComment")).click();
 		  driver.findElement(By.id("ctl00_ContentZone_ctrlInconvenientShedule_txt_comment_box_data")).sendKeys("This was created by QA Automation Script");;
 		  Thread.sleep(1000);
+		  takeScreenShot("E:\\Selenium\\","Inconveniente"+timet+".jpg");
+	  		takeScreenShot("E:\\workspace\\Pilar_Repository\\ausaModificaPartes\\attachments\\","Inconveniente"+timet+".jpg");
+	  		Thread.sleep(1000);
+	  		driver.findElement(By.id("ctl00_ButtonsZone_BtnSave_IB_Label")).click();
+	  		Thread.sleep(1500);
 		  System.out.println("El Componente Inconveniente ha sido creado para la Parte No. "+partText);
 		  
 		  

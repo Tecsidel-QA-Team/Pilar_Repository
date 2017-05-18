@@ -18,8 +18,7 @@ public class securityCompScreen extends ausaFieldsConfiguration{
 		  Thread.sleep(1000);
 		  driver.findElement(By.id(securLabel)).click();
 		  Thread.sleep(1000);
-		  driver.switchTo().frame(0);
-		  takeScreenShot("security.jpg");
+		  driver.switchTo().frame(0);		  
 		  Thread.sleep(1000);
 			driver.findElement(By.id("ctl00_ContentZone_ctrlSecurity_txt_Title_box_data")).clear();
 			driver.findElement(By.id("ctl00_ContentZone_ctrlSecurity_txt_Title_box_data")).sendKeys("Seguridad Vial"+" - "+ranNumbr(1,99)+" QA" );
@@ -62,7 +61,10 @@ public class securityCompScreen extends ausaFieldsConfiguration{
 	  			Thread.sleep(2500);
 	  			}
 	  		}
-	  		Thread.sleep(1000);	  		
+	  		Thread.sleep(1000);
+	  		takeScreenShot("E:\\Selenium\\","Security"+timet+".jpg");
+	  		takeScreenShot("E:\\workspace\\Pilar_Repository\\ausaModificaPartes\\attachments\\","Security"+timet+".jpg");
+	  		Thread.sleep(1000);
 			driver.findElement(By.id("ctl00_ButtonsZone_BtnSave_IB_Label")).click();
 			Thread.sleep(3000);			 		
 	  	}	

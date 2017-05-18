@@ -49,12 +49,15 @@ public class ausaModificarPartes extends ausaFieldsConfiguration{
                   return;
               }			  			
 	  			Thread.sleep(2000);
-	  			takeScreenShot("ausaLoginPage.jpeg");
+	  			borrarArchivosTemp("E:\\workspace\\Pilar_Repository\\ausaModificaPartes\\attachments\\");
+	  			takeScreenShot("E:\\Selenium\\","ausaLoginPageCrearPartes"+timet+".jpg");
+	  	  		takeScreenShot("E:\\workspace\\Pilar_Repository\\ausaModificaPartes\\attachments\\","ausaLoginPageCrearPartes"+timet+".jpg");	  			
 	  	      driver.findElement(By.id("BoxLogin")).sendKeys("calidad");
               driver.findElement(By.id("BoxPassword")).sendKeys("calidad");
               driver.findElement(By.id("BtnLogin")).click();
               Thread.sleep(3000);
-              takeScreenShot("AusamP.jpeg");
+              	takeScreenShot("E:\\Selenium\\","AusamP"+timet+".jpg");
+	  	  		takeScreenShot("E:\\workspace\\Pilar_Repository\\ausaModificaPartes\\attachments\\","AusamP"+timet+".jpg");              
               String currentWindowHandle = driver.getWindowHandle();		                
               String lPartes = driver.findElement(By.xpath("//div[7] / div / ul / li[5] / a")).getText();		                
               Thread.sleep(1000);
@@ -64,9 +67,8 @@ public class ausaModificarPartes extends ausaFieldsConfiguration{
               String mPartes = driver.findElement(By.xpath("// div[7] / div / ul / li[5] / ul / li / a")).getText();		                
               driver.findElement(By.linkText(mPartes)).click();
               Thread.sleep(8000);
-              
-              takeScreenShot("AusapP.jpeg");
-              
+          		takeScreenShot("E:\\Selenium\\","AusapP"+timet+".jpg");
+          		takeScreenShot("E:\\workspace\\Pilar_Repository\\ausaModificaPartes\\attachments\\","AusapP"+timet+".jpg");
               if (lPartes.equals("Issues")){
               	Types = "All";
               }else{
@@ -111,8 +113,7 @@ public class ausaModificarPartes extends ausaFieldsConfiguration{
           {
         	  //e.getCause();
               e.printStackTrace();//System.out.println(e.getStackTrace());
-        	  //Exception a = new Exception ("No Such Element Found");
-        	  
+        	  //Exception a = new Exception ("No Such Element Found");       	  
               return;
           }
 }   
@@ -204,6 +205,8 @@ public class ausaModificarPartes extends ausaFieldsConfiguration{
             	}
             }	
             Thread.sleep(500);
+        	takeScreenShot("E:\\Selenium\\","modifyParte"+timet+".jpg");
+  	  		takeScreenShot("E:\\workspace\\Pilar_Repository\\ausaModificaPartes\\attachments\\","modifyParte"+timet+".jpg");
             infoComponents();
                
                   

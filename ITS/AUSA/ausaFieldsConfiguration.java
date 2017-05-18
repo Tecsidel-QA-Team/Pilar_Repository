@@ -103,10 +103,25 @@ public class ausaFieldsConfiguration {
 	  public static Timestamp timest = new Timestamp (System.currentTimeMillis());
 	  public static String timet = timest.toString().replace("-", "").replace(" ", "").replace(":", "").substring(0,14);
 	  
-	  public static void takeScreenShot(String fname) throws Exception {
+	  public static void takeScreenShot(String pathS, String fname) throws Exception {
 		    File scrFile = ((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
-		    FileUtils.copyFile(scrFile, new File("E:\\Selenium\\", fname));
+		    FileUtils.copyFile(scrFile, new File(pathS, fname));
 	  }
+	  public static void borrarArchivosTemp(String tempPath) throws Exception{
+		File imagTmp = new File (tempPath);
+		if (imagTmp.exists()){
+			if (imagTmp.isDirectory()){
+				File [] imaglist = imagTmp.listFiles();				
+				if (imaglist.length > 0){
+				 for (int i = 0; i< imaglist.length;i++){
+						File delimg = imaglist[i];						
+						delimg.delete();						
+					}				
+				}
+			}
+		}
+		Thread.sleep(1000);
+	  }	
 	  public static void selectDropDownClick2(String by)
       {
           Select vDropdown = new Select (driver.findElement(By.id(by)));

@@ -12,8 +12,7 @@ public class personCompScreen extends ausaFieldsConfiguration{
 		  Thread.sleep(1000);
 		  driver.findElement(By.id(perLabel)).click();
 		  Thread.sleep(1000);
-		  driver.switchTo().frame(0);
-		  takeScreenShot("personComp.jpg");
+		  driver.switchTo().frame(0);		  
           Thread.sleep(1000);
 			driver.findElement(By.id("ctl00_ContentZone_ctrlPerson_txt_Title_box_data")).clear();
 			driver.findElement(By.id("ctl00_ContentZone_ctrlPerson_txt_Title_box_data")).sendKeys("Damnificado"+" - "+ranNumbr(1,99)+" QA" );
@@ -30,6 +29,9 @@ public class personCompScreen extends ausaFieldsConfiguration{
 			selectDropDownClick("ctl00_ContentZone_ctrlPerson_cmb_status_cmb_dropdown");
 			driver.findElement(By.id("ctl00_ContentZone_ctrlPerson_txt_comment_box_data")).sendKeys("Component Created by QA Automation Script");
 			Thread.sleep(1000);
+			takeScreenShot("E:\\Selenium\\","personComp"+timet+".jpg");
+	  		takeScreenShot("E:\\workspace\\Pilar_Repository\\ausaModificaPartes\\attachments\\","personComp"+timet+".jpg");
+	  		Thread.sleep(1000);
 			driver.findElement(By.id("ctl00_ButtonsZone_BtnSave_IB_Label")).click();
 			Thread.sleep(2000);
 			System.out.println("El Componente Danmificado ha sido creado para la Parte No. "+partText);

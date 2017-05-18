@@ -48,12 +48,13 @@ public class ausaBuscarPartes extends ausaFieldsConfiguration{
 		                    return;
 		                }			  			
 			  			Thread.sleep(2000);
-			  			takeScreenShot("ausaLoginPage.jpeg");
+			  			borrarArchivosTemp("E:\\workspace\\Pilar_Repository\\ausaBuscarPartes\\attachments\\");
+			  			takeScreenShot("E:\\Selenium\\","ausaLoginPage"+timet+".jpg");
+			  			takeScreenShot("E:\\workspace\\Pilar_Repository\\ausaBuscarPartes\\attachments\\","ausaLoginPage"+timet+".jpg");			  			
 			  	        driver.findElement(By.id("BoxLogin")).sendKeys("00001");
 		                driver.findElement(By.id("BoxPassword")).sendKeys("00001");
 		                driver.findElement(By.id("BtnLogin")).click();
-		                Thread.sleep(3000);
-		                takeScreenShot("AusaLoginPage"+timet+".jpeg");
+		                Thread.sleep(3000);		                
 		                String currentWindowHandle = driver.getWindowHandle();		                
 		                String lPartes = driver.findElement(By.xpath("//div[7] / div / ul / li[5] / a")).getText();		                
 		                Thread.sleep(1000);
@@ -63,15 +64,13 @@ public class ausaBuscarPartes extends ausaFieldsConfiguration{
 		                String mPartes = driver.findElement(By.xpath("// div[7] / div / ul / li[5] / ul / li / a")).getText();		                
 		                driver.findElement(By.linkText(mPartes)).click();
 		                Thread.sleep(8000);
-		                
-		                takeScreenShot("AusaMainPage"+timet+".jpeg");
-		                
+		                takeScreenShot("E:\\Selenium\\","AusaMainPage"+timet+".jpg");
+			  			takeScreenShot("E:\\workspace\\Pilar_Repository\\ausaBuscarPartes\\attachments\\","AusaMainPage"+timet+".jpg");		                
 		                if (lPartes.equals("Issues")){
 		                	Types = "All";
 		                }else{
 		                	Types = "Todos";
-		                }
-		                		                //System.out.println(newTab);		                
+		                }		                
 		                ArrayList<String> wHandle = new ArrayList<String>(driver.getWindowHandles());
 		                //driver.switchTo().window(availableWindows.get(1));		                
 		                //System.out.println(driver.switchTo().window(availableWindows.get(1)).getTitle());

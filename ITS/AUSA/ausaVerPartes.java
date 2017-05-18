@@ -99,12 +99,15 @@ public class ausaVerPartes extends ausaFieldsConfiguration{
 		                    return;
 		                }			  			
 			  			Thread.sleep(2000);
-			  			takeScreenShot("ausaLoginPage.jpeg");
+			  			borrarArchivosTemp("E:\\workspace\\Pilar_Repository\\ausaVerPartes\\attachments\\");
+			  			takeScreenShot("E:\\Selenium\\","ausaLoginPageCrearPartes"+timet+".jpg");
+			  	  		takeScreenShot("E:\\workspace\\Pilar_Repository\\ausaVerPartes\\attachments\\","ausaLoginPageCrearPartes"+timet+".jpg");			  			
 			  	        driver.findElement(By.id("BoxLogin")).sendKeys("calidad");
 		                driver.findElement(By.id("BoxPassword")).sendKeys("calidad");
 		                driver.findElement(By.id("BtnLogin")).click();
 		                Thread.sleep(3000);
-		                takeScreenShot("AusamP.jpeg");
+		                takeScreenShot("E:\\Selenium\\","AusamP"+timet+".jpg");
+			  	  		takeScreenShot("E:\\workspace\\Pilar_Repository\\ausaVerPartes\\attachments\\","AusamP"+timet+".jpg");		                
 		                String currentWindowHandle = driver.getWindowHandle();		                
 		                String lPartes = driver.findElement(By.xpath("//div[7] / div / ul / li[5] / a")).getText();		                
 		                Thread.sleep(1000);
@@ -114,9 +117,8 @@ public class ausaVerPartes extends ausaFieldsConfiguration{
 		                String mPartes = driver.findElement(By.xpath("// div[7] / div / ul / li[5] / ul / li / a")).getText();		                
 		                driver.findElement(By.linkText(mPartes)).click();
 		                Thread.sleep(8000);
-		                
-		                takeScreenShot("AusapP.jpeg");
-		                
+		                takeScreenShot("E:\\Selenium\\","AusapP"+timet+".jpg");
+			  	  		takeScreenShot("E:\\workspace\\Pilar_Repository\\ausaVerPartes\\attachments\\","AusapP"+timet+".jpg");	                		                
 		                if (lPartes.equals("Issues")){
 		                	Types = "All";
 		                }else{
@@ -201,12 +203,16 @@ public class ausaVerPartes extends ausaFieldsConfiguration{
 		                		driver.switchTo().window(window);		                		
 		                	}
 		               }
+	  					
 	  			        Object Partes1 = "#Partes";	  			        
 	  			        Assert.assertEquals("#Partes", Partes1);
 	  			        driver.switchTo().defaultContent();	  			        
 	  			        Thread.sleep(1000);
 	  					partText = driver.findElement(By.id("ctl00_ContentZone_txt_id_box_data")).getAttribute("value");
 	  					Thread.sleep(1000);
+	  					takeScreenShot("E:\\Selenium\\","verParte"+timet+".jpg");
+			  	  		takeScreenShot("E:\\workspace\\Pilar_Repository\\ausaVerPartes\\attachments\\","verParte"+timet+".jpg");
+			  	  		Thread.sleep(1000);
 	  					partPadreText = driver.findElement(By.id("ctl00_ContentZone_lnb_parent")).getAttribute("value");
 	  					if (partPadreText == null){
 	  						partPadreText = "";
@@ -256,10 +262,14 @@ public class ausaVerPartes extends ausaFieldsConfiguration{
 	  		            }
 	  					verFile = "verPartesResultados_";
 	  					File result = new File("E:\\Selenium\\"+verFile+timet+".txt");
-	  					FileOutputStream fis = new FileOutputStream(new File(result.toString()));	  					
-	  					PrintStream out = new PrintStream(fis);
+	  					File resultTmp = new File("E:\\workspace\\Pilar_Repository\\ausaVerPartes\\attachments\\"+verFile+timet+".txt");	  						
+  						FileOutputStream fis = new FileOutputStream(new File(result.toString()));
+  						FileOutputStream fis2 = new FileOutputStream(new File(resultTmp.toString()));
+  						PrintStream out = new PrintStream(fis);
+  						PrintStream out2 = new PrintStream(fis2);  						
 	  					PrintStream old = System.out;
 	  					System.setOut(out);
+	  					System.setOut(out2);
 	  					System.out.println("#Parte: "+partText);
 	  					System.out.println("Padre Parte: "+partPadreText);
 	  					System.out.println("Estado: "+statusText1);
