@@ -67,13 +67,13 @@ public class ausaDelPartes extends ausaFieldsConfiguration{
 			  			Thread.sleep(2000);
 			  			borrarArchivosTemp("E:\\workspace\\Pilar_Repository\\ausaBorrarPartes\\attachments\\");
 			  			takeScreenShot("E:\\Selenium\\","ausaLoginPageCrearPartes"+timet+".jpg");
-			  	  		takeScreenShot("E:\\workspace\\Pilar_Repository\\ausaausaBorrarPartes\\attachments\\","ausaLoginPageCrearPartes"+timet+".jpg");			  			
+			  	  		takeScreenShot("E:\\workspace\\Pilar_Repository\\ausaBorrarPartes\\attachments\\","ausaLoginPageCrearPartes"+timet+".jpg");			  			
 			  	        driver.findElement(By.id("BoxLogin")).sendKeys("calidad");
 		                driver.findElement(By.id("BoxPassword")).sendKeys("calidad");
 		                driver.findElement(By.id("BtnLogin")).click();
 		                Thread.sleep(3000);
 		                takeScreenShot("E:\\Selenium\\","AusamP"+timet+".jpg");
-			  	  		takeScreenShot("E:\\workspace\\Pilar_Repository\\ausaausaBorrarPartes\\attachments\\","AusamP"+timet+".jpg");		                
+			  	  		takeScreenShot("E:\\workspace\\Pilar_Repository\\ausaBorrarPartes\\attachments\\","AusamP"+timet+".jpg");		                
 		                String currentWindowHandle = driver.getWindowHandle();		                
 		                String lPartes = driver.findElement(By.xpath("//div[7] / div / ul / li[5] / a")).getText();		                
 		                Thread.sleep(1000);
@@ -84,7 +84,7 @@ public class ausaDelPartes extends ausaFieldsConfiguration{
 		                driver.findElement(By.linkText(mPartes)).click();
 		                Thread.sleep(8000);
 		                takeScreenShot("E:\\Selenium\\","AusapP"+timet+".jpg");
-			  	  		takeScreenShot("E:\\workspace\\Pilar_Repository\\ausaausaBorrarPartes\\attachments\\","AusapP"+timet+".jpg");		                		                
+			  	  		takeScreenShot("E:\\workspace\\Pilar_Repository\\ausaBorrarPartes\\attachments\\","AusapP"+timet+".jpg");		                		                
 		                if (lPartes.equals("Issues")){
 		                	Types = "All";
 		                }else{
@@ -111,7 +111,7 @@ public class ausaDelPartes extends ausaFieldsConfiguration{
 		                if (driver.findElements(By.xpath("//div[@class='toast-item toast-type-error']/p")).size()!=0){
 		                	errorText = driver.findElement(By.xpath("//div[@class='toast-item toast-type-error']/p")).getText();
 		                	takeScreenShot("E:\\Selenium\\","errorSearch"+timet+".jpg");
-				  	  		takeScreenShot("E:\\workspace\\Pilar_Repository\\ausaausaBorrarPartes\\attachments\\","errorSearch"+timet+".jpg");		                	  						
+				  	  		takeScreenShot("E:\\workspace\\Pilar_Repository\\ausaBorrarPartes\\attachments\\","errorSearch"+timet+".jpg");		                	  						
 	  						System.out.println("ERROR EN BUSQUEDA: "+errorText+ ". Ver Imagen de Captura Busqueda.jpeg");
 		                }else{
 		                    	borrarElement();
@@ -158,7 +158,7 @@ public class ausaDelPartes extends ausaFieldsConfiguration{
 	  					driver.findElement(By.id(delPart.get(xll))).click();
 	  					if (driver.findElements(By.xpath("//div[@class='toast-item toast-type-error']/p")).size()!=0){
 	  				    	takeScreenShot("E:\\Selenium\\","noIssuesDeleted"+timet+".jpg");
-				  	  		takeScreenShot("E:\\workspace\\Pilar_Repository\\ausaausaBorrarPartes\\attachments\\","noIssuesDeleted"+timet+".jpg");
+				  	  		takeScreenShot("E:\\workspace\\Pilar_Repository\\ausaBorrarPartes\\attachments\\","noIssuesDeleted"+timet+".jpg");
 	  						Thread.sleep(500);
 	  						errorText = driver.findElement(By.xpath("//div[@class='toast-item toast-type-error']/p")).getText();	  					
 	  						System.out.println("ERROR AL ELIMINAR PARTE: "+errorText+ ". Ver Imagen de Captura noIssuesDeleted.jpeg");
@@ -168,7 +168,7 @@ public class ausaDelPartes extends ausaFieldsConfiguration{
 	  					driver.findElement(By.id("popup_ok")).click();
 	  					Thread.sleep(1000);
   				    	takeScreenShot("E:\\Selenium\\","parteEliminada"+timet+".jpg");
-			  	  		takeScreenShot("E:\\workspace\\Pilar_Repository\\ausaausaBorrarPartes\\attachments\\","parteEliminada"+timet+".jpg");
+			  	  		takeScreenShot("E:\\workspace\\Pilar_Repository\\ausaBorrarPartes\\attachments\\","parteEliminada"+timet+".jpg");
 	  					System.out.println ("Se ha Eliminado la Parte "+ delPart.get(xll).substring(7) + " Correctamente. Vea Imagen de Captura Mensaje de Confirmación de Elemento Borrado");
 	  				}
 	  				

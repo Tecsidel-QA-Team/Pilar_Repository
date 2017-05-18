@@ -102,8 +102,8 @@ public class ausaCrearPartes extends ausaFieldsConfiguration{
             fail("ITS NO ESTA DISPONIBLE");
             return;
         }			  			
-			Thread.sleep(2000);
-			borrarArchivosTemp("E:\\workspace\\Pilar_Repository\\ausaCrearPartes\\attachments\\");
+		Thread.sleep(2000);
+		borrarArchivosTemp("E:\\workspace\\Pilar_Repository\\ausaCrearPartes\\attachments\\");
 		takeScreenShot("E:\\Selenium\\","ausaLoginPageCrearPartes"+timet+".jpg");
   		takeScreenShot("E:\\workspace\\Pilar_Repository\\ausaCrearPartes\\attachments\\","ausaLoginPageCrearPartes"+timet+".jpg");			
 	    driver.findElement(By.id("BoxLogin")).sendKeys("calidad");
