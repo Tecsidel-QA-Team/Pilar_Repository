@@ -175,7 +175,8 @@ public class ausaBuscarPartes extends ausaFieldsConfiguration{
 		                    System.out.println("No hubo Elementos Encontrados");
 		                }
 
-		                
+		                takeScreenShot("E:\\Selenium\\","AusaSearchPageResult"+timet+".jpg");
+			  			takeScreenShot("E:\\workspace\\Pilar_Repository\\ausaBuscarPartes\\attachments\\","AusaSearchPageResult"+timet+".jpg");
 		            }
 		            catch (Exception e)
 		            {
