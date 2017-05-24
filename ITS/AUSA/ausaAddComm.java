@@ -76,7 +76,7 @@ public class ausaAddComm extends ausaFieldsConfiguration{
 		                    return;
 		                }			  			
 			  			Thread.sleep(2000);
-			  			borrarArchivosTemp("E:\\workspace\\Pilar_Repository\\ausaCrearPartes\\attachments\\");			  			
+			  			borrarArchivosTemp("E:\\workspace\\Pilar_Repository\\ausaAgregarComPartes\\attachments\\");			  			
 			  			takeScreenShot("E:\\Selenium\\","ausaLoginPage"+timet+".jpg");
 			  			takeScreenShot("E:\\workspace\\Pilar_Repository\\ausaAgregarComPartes\\attachments\\","ausaLoginPage_"+timet+".jpg");
 			  	        driver.findElement(By.id("BoxLogin")).sendKeys("calidad");
