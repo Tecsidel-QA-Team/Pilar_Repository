@@ -1,0 +1,9 @@
+Titulo de Comunicación: Communication - 68 QA Automation
+Tipo de Comunicación: Saliente
+Medio de Comunicación: Teléfono
+Motivo de Comunicación: ACCIDENTE
+Tipo Origen Destion: Personal
+Origen/Destino: ZAPATA, JULIO RICARDO
+Importancia: Importancia 2
+Asunto: Created by Automation Script
+Observaciones: This Communication was created by an automation script for testing purpose

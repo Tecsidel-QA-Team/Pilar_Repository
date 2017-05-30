@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<result plugin="junit@1.20">
+  <suites>
+    <suite>
+      <file>E:\workspace\Pilar_Repository\ausaBuscarPartes\junit\TEST-AUSA.ausaBuscarPartes.xml</file>
+      <name>AUSA.ausaBuscarPartes</name>
+      <stdout>Se han encontrado 25 Registro/s
+</stdout>
+      <stderr>Starting ChromeDriver 2.28.455520 (cc17746adff54984afff480136733114c6b3704b) on port 4956
+Only local connections are allowed.
+may 16, 2017 4:00:05 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: OSS
+</stderr>
+      <duration>69.575</duration>
+      <timestamp>2017-05-16T14:00:00</timestamp>
+      <time>69.575</time>
+      <cases>
+        <case>
+          <duration>69.152</duration>
+          <className>AUSA.ausaBuscarPartes</className>
+          <testName>ausaITSpage</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+      </cases>
+    </suite>
+  </suites>
+  <duration>69.575</duration>
+  <keepLongStdio>false</keepLongStdio>
+</result>

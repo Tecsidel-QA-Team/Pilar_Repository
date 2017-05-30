@@ -1,0 +1,13 @@
+Started by user [8mha:////4B0oH7dCi+DoR8lLxi6guWP+XoKmeo2D9hw2LSNRqL+1AAAAoR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzJEgZR/dLi1CL9tKLEvOycyjy9vPzK/JxEAELgG+TKAAAA[0mFranklyn R. Garcia Noyola
+Building in workspace E:\workspace\Pilar_Repository\ausaAgregarComPartes
+[Pilar_Repository] $ cmd.exe /C "C:\apache-ant-1.10.1\bin\ant.bat -file ausaAgregarPartes.xml ausaAddComm && exit %%ERRORLEVEL%%"
+Buildfile: E:\workspace\Pilar_Repository\ausaAgregarPartes.xml
+
+[8mha:////4G0i4FssbyG03DXxdyyTg9hZXApxxs4NV/6FsUgUoVOXAAAAYB+LCAAAAAAAAP9b85aBtbiIQT6jNKU4P0+vJLE4u1gvPjGvRM8xryQksSg9tcQvvyTVvqNr/s+Vl9uYGBgqihikoKqT8/OK83NS9ZwhNEghAwQwghQWAADROOumXQAAAA==[0mausaAddComm:
+    [mkdir] Created dir: E:\workspace\Pilar_Repository\ausaAgregarComPartes\junit
+    [junit] Running AUSA.ausaAddComm
+Build was aborted
+Aborted by [8mha:////4B0oH7dCi+DoR8lLxi6guWP+XoKmeo2D9hw2LSNRqL+1AAAAoR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzJEgZR/dLi1CL9tKLEvOycyjy9vPzK/JxEAELgG+TKAAAA[0mFranklyn R. Garcia Noyola
+Recording test results
+ERROR: Step ‘Publish JUnit test result report’ failed: No test report files were found. Configuration error?
+[8mha:////4M9IWYlHE4j8oXgKdrk1Fp08ed9mGHZDRGAzOUN/L0ycAAAAVx+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P08vOT+vOD8nVc8DzHWtSE4tKMnMz/PLL0mV3NWzufebKBsTA0NFEYMUmgZnCA1SyAABjCCFBQC2xNaiYAAAAA==[0mFinished: ABORTED

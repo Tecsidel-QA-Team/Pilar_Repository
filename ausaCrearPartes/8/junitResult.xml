@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<result plugin="junit@1.20">
+  <suites>
+    <suite>
+      <file>E:\workspace\Pilar_Repository\ausaCrearPartes\junit\TEST-AUSA.ausaCrearPartes.xml</file>
+      <name>AUSA.ausaCrearPartes</name>
+      <stdout>Se ha creado parte No. 846 correctamente. Verificar archivo log crearPartesResultadosSuccess_20170518154100 con los datos creados
+</stdout>
+      <stderr>Starting ChromeDriver 2.28.455520 (cc17746adff54984afff480136733114c6b3704b) on port 7754
+Only local connections are allowed.
+may 18, 2017 3:41:06 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: OSS
+</stderr>
+      <duration>235.51</duration>
+      <timestamp>2017-05-18T13:41:01</timestamp>
+      <time>235.51</time>
+      <cases>
+        <case>
+          <duration>234.911</duration>
+          <className>AUSA.ausaCrearPartes</className>
+          <testName>ausaIssuescreate</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+      </cases>
+    </suite>
+  </suites>
+  <duration>235.51</duration>
+  <keepLongStdio>false</keepLongStdio>
+</result>

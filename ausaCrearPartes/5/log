@@ -1,0 +1,8 @@
+Started by user [8mha:////4B0oH7dCi+DoR8lLxi6guWP+XoKmeo2D9hw2LSNRqL+1AAAAoR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzJEgZR/dLi1CL9tKLEvOycyjy9vPzK/JxEAELgG+TKAAAA[0mFranklyn R. Garcia Noyola
+Building in workspace E:\workspace\Pilar_Repository\ausaCrearPartes
+ERROR: Unable to find build script at E:\workspace\Tecsidel_ITS\ausaCrearPartes.xml
+[8mha:////4M9IWYlHE4j8oXgKdrk1Fp08ed9mGHZDRGAzOUN/L0ycAAAAVx+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P08vOT+vOD8nVc8DzHWtSE4tKMnMz/PLL0mV3NWzufebKBsTA0NFEYMUmgZnCA1SyAABjCCFBQC2xNaiYAAAAA==[0mRecording test results
+ERROR: Step ‘Publish JUnit test result report’ failed: Test reports were found but none of them are new. Did tests run? 
+For example, E:\workspace\Pilar_Repository\ausaCrearPartes\junit\TEST-AUSA.ausaCrearPartes.xml is 4 min 30 sec old
+
+[8mha:////4M9IWYlHE4j8oXgKdrk1Fp08ed9mGHZDRGAzOUN/L0ycAAAAVx+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P08vOT+vOD8nVc8DzHWtSE4tKMnMz/PLL0mV3NWzufebKBsTA0NFEYMUmgZnCA1SyAABjCCFBQC2xNaiYAAAAA==[0mFinished: FAILURE

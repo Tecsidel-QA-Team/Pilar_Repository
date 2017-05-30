@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<result plugin="junit@1.20">
+  <suites>
+    <suite>
+      <file>E:\workspace\Pilar_Repository\ausaBorrarPartes\junit\TEST-AUSA.ausaDelPartes.xml</file>
+      <name>AUSA.ausaDelPartes</name>
+      <stdout>ERROR EN BUSQUEDA: Ningún parte encontrado para los criterios de selección introducidos. Ver Imagen de Captura Busqueda.jpeg
+</stdout>
+      <stderr>Starting ChromeDriver 2.28.455520 (cc17746adff54984afff480136733114c6b3704b) on port 37409
+Only local connections are allowed.
+may 04, 2017 2:52:15 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: OSS
+</stderr>
+      <duration>48.607</duration>
+      <timestamp>2017-05-04T12:52:09</timestamp>
+      <time>48.607</time>
+      <cases>
+        <case>
+          <duration>48.331</duration>
+          <className>AUSA.ausaDelPartes</className>
+          <testName>ausaITSpage</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+      </cases>
+    </suite>
+  </suites>
+  <duration>48.607</duration>
+  <keepLongStdio>false</keepLongStdio>
+</result>

@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<result plugin="junit@1.20">
+  <suites>
+    <suite>
+      <file>E:\workspace\Pilar_Repository\ausaModificaPartes\junit\TEST-AUSA.ausaModificarPartes.xml</file>
+      <name>AUSA.ausaModificarPartes</name>
+      <stdout>El Componente Tráfico ha sido creado para la Parte No. 843
+</stdout>
+      <stderr>Starting ChromeDriver 2.28.455520 (cc17746adff54984afff480136733114c6b3704b) on port 17198
+Only local connections are allowed.
+may 18, 2017 3:53:54 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: OSS
+</stderr>
+      <duration>163.175</duration>
+      <timestamp>2017-05-18T13:53:47</timestamp>
+      <time>163.175</time>
+      <cases>
+        <case>
+          <duration>162.324</duration>
+          <className>AUSA.ausaModificarPartes</className>
+          <testName>ausaIssuesUpdate</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+      </cases>
+    </suite>
+  </suites>
+  <duration>163.175</duration>
+  <keepLongStdio>false</keepLongStdio>
+</result>

@@ -1,0 +1,31 @@
+#Parte: 844
+Padre Parte: 
+Estado: Abierto
+Origen: Manual
+Fecha Inicio: 18/05/2017
+Plantilla: Accidente
+Gravedad: Crítica
+Creado Por: calidad - Franklyn García
+Modificado Por: calidad - Franklyn García
+Fecha Cierre: 
+Prioridad: Urgente
+Tipo: Accidente
+Asignado: PBRSV - PBR PBR
+Supervisor: PBRSV - PBR PBR
+Autopista: Au1-25 de Mayo
+Banda: Direccion lista A
+PKM(Km+m): 621+628
+Ramales: RAMAL 4-DIST 9 DE JULIO,ENLACE AU1 PROVINCIA
+Localización: Buenos Aires
+Observaciones: QA issue created by Automation Script
+Tipo de Accidentes: obstáculo en la calzada
+Tipo de Impacto: Todas
+Causas Aparentes del Hecho: This was written by automation scrript for Test Purpose
+Información complementaria: This was written by automation scrript for Test Purpose
+Observaciones Generales: This was written by automation scrript for Test Purpose
+Nota del centro de operaciones: This was written by automation scrript for Test Purpose
+xSe produjo fuego    Despl banquina    Daños instalaciones    xVehículos volcados: 27
+Motos    xAutomóviles: 72    Camiones    xAutobuses: 55    xChárters: 96    
+Id                            Tipo                          Descripción                   Origen/Destino                Fecha de arribo               Fecha cierre                  Acciones                       
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- 
+1558                          Comunicación                  Communication - 53 QA Automation                                                                                                                         

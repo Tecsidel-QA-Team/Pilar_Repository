@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<result plugin="junit@1.20">
+  <suites>
+    <suite>
+      <file>E:\workspace\Pilar_Repository\ausaAgregarComPartes\junit\TEST-AUSA.ausaAddComm.xml</file>
+      <name>AUSA.ausaAddComm</name>
+      <stdout>Se ha creado una Comunicación a la parte 843 y se ha creado un Archivo Log addComArchivo_20170525121642 con los datos agregados
+</stdout>
+      <stderr>Starting ChromeDriver 2.28.455520 (cc17746adff54984afff480136733114c6b3704b) on port 17963
+Only local connections are allowed.
+may 25, 2017 12:16:46 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: OSS
+</stderr>
+      <duration>90.621</duration>
+      <timestamp>2017-05-25T10:16:43</timestamp>
+      <time>90.621</time>
+      <cases>
+        <case>
+          <duration>90.141</duration>
+          <className>AUSA.ausaAddComm</className>
+          <testName>ausaITSpage</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+      </cases>
+    </suite>
+  </suites>
+  <duration>90.621</duration>
+  <keepLongStdio>false</keepLongStdio>
+</result>

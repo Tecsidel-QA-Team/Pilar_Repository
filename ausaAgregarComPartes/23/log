@@ -1,0 +1,73 @@
+Started by timer
+Building in workspace E:\workspace\Pilar_Repository\ausaAgregarComPartes
+No emails were triggered.
+[Pilar_Repository] $ cmd.exe /C "C:\apache-ant-1.10.1\bin\ant.bat -file ausaAgregarPartes.xml ausaAddComm && exit %%ERRORLEVEL%%"
+Buildfile: E:\workspace\Pilar_Repository\ausaAgregarPartes.xml
+
+[8mha:////4G0i4FssbyG03DXxdyyTg9hZXApxxs4NV/6FsUgUoVOXAAAAYB+LCAAAAAAAAP9b85aBtbiIQT6jNKU4P0+vJLE4u1gvPjGvRM8xryQksSg9tcQvvyTVvqNr/s+Vl9uYGBgqihikoKqT8/OK83NS9ZwhNEghAwQwghQWAADROOumXQAAAA==[0mausaAddComm:
+    [junit] Running AUSA.ausaAddComm
+    [junit] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 58,783 sec
+    [junit] Error: 
+    [junit] Starting ChromeDriver 2.28.455520 (cc17746adff54984afff480136733114c6b3704b) on port 47419
+    [junit] Only local connections are allowed.
+    [junit] may 25, 2017 4:51:05 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+    [junit] INFO: Detected dialect: OSS
+    [junit] org.openqa.selenium.StaleElementReferenceException: stale element reference: element is not attached to the page document
+    [junit]   (Session info: chrome=58.0.3029.110)
+    [junit]   (Driver info: chromedriver=2.28.455520 (cc17746adff54984afff480136733114c6b3704b),platform=Windows NT 6.3.9600 x86_64) (WARNING: The server did not provide any stacktrace information)
+    [junit] Command duration or timeout: 246 milliseconds
+    [junit] For documentation on this error, please visit: http://seleniumhq.org/exceptions/stale_element_reference.html
+    [junit] Build info: version: '3.3.1', revision: '5234b32', time: '2017-03-10 09:04:52 -0800'
+    [junit] System info: host: 'VIRTUALQA-AUTOM', ip: '172.18.131.54', os.name: 'Windows Server 2012 R2', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_131'
+    [junit] Driver info: org.openqa.selenium.chrome.ChromeDriver
+    [junit] Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.28.455520 (cc17746adff54984afff480136733114c6b3704b), userDataDir=C:\Windows\TEMP\scoped_dir1664_4742}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=58.0.3029.110, platform=WIN8_1, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
+    [junit] Session ID: a705b44849d55ddcacb9806034ff34ae
+    [junit] 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+    [junit] 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+    [junit] 	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+    [junit] 	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+    [junit] 	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:216)
+    [junit] 	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:168)
+    [junit] 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:638)
+    [junit] 	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:274)
+    [junit] 	at org.openqa.selenium.remote.RemoteWebElement.getAttribute(RemoteWebElement.java:126)
+    [junit] 	at org.openqa.selenium.support.ui.Select.<init>(Select.java:52)
+    [junit] 	at AUSA.ausaFieldsConfiguration.notEmptyDropDown(ausaFieldsConfiguration.java:234)
+    [junit] 	at AUSA.ausaAddComm.createCommunication(ausaAddComm.java:196)
+    [junit] 	at AUSA.ausaAddComm.buscarElement(ausaAddComm.java:173)
+    [junit] 	at AUSA.ausaAddComm.ausaITSpage(ausaAddComm.java:129)
+    [junit] 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+    [junit] 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+    [junit] 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+    [junit] 	at java.lang.reflect.Method.invoke(Method.java:498)
+    [junit] 	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+    [junit] 	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+    [junit] 	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+    [junit] 	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+    [junit] 	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+    [junit] 	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)
+    [junit] 	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+    [junit] 	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+    [junit] 	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+    [junit] 	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+    [junit] 	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+    [junit] 	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+    [junit] 	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+    [junit] 	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+    [junit] 	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+    [junit] 	at junit.framework.JUnit4TestAdapter.run(JUnit4TestAdapter.java:38)
+    [junit] 	at org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner.run(JUnitTestRunner.java:535)
+    [junit] 	at org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner.launch(JUnitTestRunner.java:1182)
+    [junit] 	at org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner.main(JUnitTestRunner.java:1033)
+    [junit] 
+
+[8mha:////4LtWGwsf4zMIgdGLIK1fJll9ZHfX81ZkqCRkV9SIcmrYAAAAYB+LCAAAAAAAAP9b85aBtbiIQSGjNKU4P0+vJLE4u1gvPjGvRM8xr8S/tCQ5PzfVL78ktUuDM0uMry+HiYGhoohBCqo8OT+vOD8nVc8ZQoMUMkAAI0hhAQAUXUdTXgAAAA==[0mBUILD SUCCESSFUL
+Total time: 1 minute 2 seconds
+Recording test results
+Email was triggered for: Always
+Email was triggered for: Success
+Sending email for trigger: Always
+Sending email to: franklyn.garcia@tecsidel.es pilar.bonilla@tecsidel.es
+Sending email for trigger: Success
+An attempt to send an e-mail to empty list of recipients, ignored.
+Finished: SUCCESS

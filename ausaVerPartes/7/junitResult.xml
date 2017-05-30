@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<result plugin="junit@1.20">
+  <suites>
+    <suite>
+      <file>E:\workspace\Pilar_Repository\ausaVerPartes\junit\TEST-AUSA.ausaVerPartes.xml</file>
+      <name>AUSA.ausaVerPartes</name>
+      <stdout>El Archivo verPartesResultados_20170515160504 ha sido creado
+</stdout>
+      <stderr>Starting ChromeDriver 2.28.455520 (cc17746adff54984afff480136733114c6b3704b) on port 34081
+Only local connections are allowed.
+may 15, 2017 4:05:18 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: OSS
+</stderr>
+      <duration>246.236</duration>
+      <timestamp>2017-05-15T14:05:05</timestamp>
+      <time>246.236</time>
+      <cases>
+        <case>
+          <duration>245.688</duration>
+          <className>AUSA.ausaVerPartes</className>
+          <testName>ausaITSpage</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+      </cases>
+    </suite>
+  </suites>
+  <duration>246.236</duration>
+  <keepLongStdio>false</keepLongStdio>
+</result>
