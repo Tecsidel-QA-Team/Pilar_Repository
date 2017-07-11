@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite errors="0" failures="0" hostname="VirtualQA-Autom" name="AUSA.ausaCrearPartes" skipped="0" tests="1" time="235.51" timestamp="2017-05-18T13:41:01">
+<testsuite errors="0" failures="0" hostname="VirtualQA-Autom" name="AUSA.ausaCrearPartes" skipped="0" tests="1" time="218.182" timestamp="2017-06-12T07:54:50">
   <properties>
     <property name="java.vendor" value="Oracle Corporation" />
-    <property name="env.RUN_DISPLAY_URL" value="localhost:8080/job/Pilar_Repository/job/ausaCrearPartes/8/display/redirect" />
+    <property name="env.RUN_DISPLAY_URL" value="localhost:8080/job/Pilar_Repository/job/ausaCrearPartes/9/display/redirect" />
     <property name="env.JENKINS_SERVER_COOKIE" value="7e2882574fb38bd4" />
     <property name="ant.file.Pilar_Repository" value="E:\workspace\Pilar_Repository\ausaCrearPartes.xml" />
     <property name="sun.java.launcher" value="SUN_STANDARD" />
@@ -21,7 +21,7 @@
     <property name="java.vm.specification.vendor" value="Oracle Corporation" />
     <property name="ant.home" value="C:\apache-ant-1.10.1" />
     <property name="java.runtime.version" value="1.8.0_131-b11" />
-    <property name="env.BUILD_DISPLAY_NAME" value="#8" />
+    <property name="env.BUILD_DISPLAY_NAME" value="#9" />
     <property name="user.name" value="VIRTUALQA-AUTOM$" />
     <property name="user.language.format" value="es" />
     <property name="user.language" value="en" />
@@ -45,7 +45,7 @@
     <property name="java.specification.name" value="Java Platform API Specification" />
     <property name="java.class.version" value="52.0" />
     <property name="user.country" value="US" />
-    <property name="env.BUILD_NUMBER" value="8" />
+    <property name="env.BUILD_NUMBER" value="9" />
     <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_131\jre" />
     <property name="env.PSModulePath" value="C:\Windows\system32\WindowsPowerShell\v1.0\Modules\" />
     <property name="env.APPDATA" value="C:\Windows\system32\config\systemprofile\AppData\Roaming" />
@@ -59,14 +59,14 @@
     <property name="os.version" value="6.3" />
     <property name="env.ProgramW6432" value="C:\Program Files" />
     <property name="env._USE_CLASSPATH" value="no" />
-    <property name="env.HUDSON_COOKIE" value="d7e99eb9-9f48-4a90-aa8a-22f51f289969" />
+    <property name="env.HUDSON_COOKIE" value="0a4f2eb4-cefa-4c63-a824-4bad000a61ac" />
     <property name="path.separator" value=";" />
     <property name="java.vm.version" value="25.131-b11" />
     <property name="user.variant" value="" />
     <property name="env.USERPROFILE" value="C:\Windows\system32\config\systemprofile" />
     <property name="ant.library.dir" value="C:\apache-ant-1.10.1\lib" />
     <property name="junit.output.dir" value="E:\workspace\Pilar_Repository\ausaCrearPartes\junit" />
-    <property name="env.RUN_CHANGES_DISPLAY_URL" value="localhost:8080/job/Pilar_Repository/job/ausaCrearPartes/8/display/redirect?page=changes" />
+    <property name="env.RUN_CHANGES_DISPLAY_URL" value="localhost:8080/job/Pilar_Repository/job/ausaCrearPartes/9/display/redirect?page=changes" />
     <property name="env.JOB_NAME" value="Pilar_Repository/ausaCrearPartes" />
     <property name="env.JAVA_HOME" value="C:\Program Files\Java\jdk1.8.0_131" />
     <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob" />
@@ -77,7 +77,7 @@
     <property name="awt.toolkit" value="sun.awt.windows.WToolkit" />
     <property name="user.script" value="" />
     <property name="env.HUDSON_URL" value="localhost:8080/" />
-    <property name="env.BUILD_TAG" value="jenkins-Pilar_Repository-ausaCrearPartes-8" />
+    <property name="env.BUILD_TAG" value="jenkins-Pilar_Repository-ausaCrearPartes-9" />
     <property name="user.home" value="C:\Windows\system32\config\systemprofile" />
     <property name="target" value="1.8" />
     <property name="env.JENKINS_HOME" value="C:\Program Files (x86)\Jenkins" />
@@ -86,7 +86,7 @@
     <property name="env.VS140COMNTOOLS" value="C:\Program Files (x86)\Microsoft Visual Studio 14.0\Common7\Tools\" />
     <property name="env.ProgramFiles(x86)" value="C:\Program Files (x86)" />
     <property name="java.specification.vendor" value="Oracle Corporation" />
-    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_131\jre\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files\Java\jdk1.8.0_131/bin;C:\apache-ant-1.10.1/bin;C:\Program Files\Java\jdk1.8.0_131/bin;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Microsoft SQL Server\100\Tools\Binn\;C:\Program Files\Microsoft SQL Server\100\Tools\Binn\;C:\Program Files\Microsoft SQL Server\100\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\100\Tools\Binn\VSShell\Common7\IDE\;C:\Program Files (x86)\Microsoft SQL Server\100\DTS\Binn\;C:\Windows\system32\config\systemprofile\.dnx\bin;C:\Program Files\Microsoft DNX\Dnvm\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\Git\cmd;C:\Program Files\TortoiseGit\bin;." />
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_131\jre\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files\Java\jdk1.8.0_131/bin;C:\apache-ant-1.10.1/bin;C:\Program Files\Java\jdk1.8.0_131/bin;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Microsoft SQL Server\100\Tools\Binn\;C:\Program Files\Microsoft SQL Server\100\Tools\Binn\;C:\Program Files\Microsoft SQL Server\100\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\100\Tools\Binn\VSShell\Common7\IDE\;C:\Program Files (x86)\Microsoft SQL Server\100\DTS\Binn\;C:\Windows\system32\config\systemprofile\.dnx\bin;C:\Program Files\Microsoft DNX\Dnvm\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\Git\cmd;C:\Program Files\TortoiseGit\bin;;." />
     <property name="java.vendor.url" value="http://java.oracle.com/" />
     <property name="env.NUMBER_OF_PROCESSORS" value="1" />
     <property name="env.HUDSON_HOME" value="C:\Program Files (x86)\Jenkins" />
@@ -95,8 +95,8 @@
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment" />
     <property name="env.=E:" value="E:\workspace\Pilar_Repository" />
     <property name="ant.version" value="Apache Ant(TM) version 1.10.1 compiled on February 2 2017" />
-    <property name="java.class.path" value="E:\workspace\Pilar_Repository\bin;E:\workspace\Pilar_Repository\lib\cglib-nodep-3.2.4.jar;E:\workspace\Pilar_Repository\lib\commons-codec-1.10.jar;E:\workspace\Pilar_Repository\lib\commons-exec-1.3.jar;E:\workspace\Pilar_Repository\lib\commons-io-2.5.jar;E:\workspace\Pilar_Repository\lib\commons-lang3-3.5.jar;E:\workspace\Pilar_Repository\lib\commons-logging-1.2.jar;E:\workspace\Pilar_Repository\lib\cssparser-0.9.21.jar;E:\workspace\Pilar_Repository\lib\gson-2.8.0.jar;E:\workspace\Pilar_Repository\lib\guava-21.0.jar;E:\workspace\Pilar_Repository\lib\hamcrest-core-1.3.jar;E:\workspace\Pilar_Repository\lib\hamcrest-library-1.3.jar;E:\workspace\Pilar_Repository\lib\htmlunit-2.24.jar;E:\workspace\Pilar_Repository\lib\htmlunit-core-js-2.23.jar;E:\workspace\Pilar_Repository\lib\htmlunit-driver-2.24.jar;E:\workspace\Pilar_Repository\lib\httpclient-4.5.2.jar;E:\workspace\Pilar_Repository\lib\httpcore-4.4.4.jar;E:\workspace\Pilar_Repository\lib\httpmime-4.5.2.jar;E:\workspace\Pilar_Repository\lib\javax.servlet-api-3.1.0.jar;E:\workspace\Pilar_Repository\lib\jetty-io-9.4.1.v20170120.jar;E:\workspace\Pilar_Repository\lib\jetty-util-9.4.1.v20170120.jar;E:\workspace\Pilar_Repository\lib\jna-4.1.0.jar;E:\workspace\Pilar_Repository\lib\jna-platform-4.1.0.jar;E:\workspace\Pilar_Repository\lib\junit-4.12.jar;E:\workspace\Pilar_Repository\lib\neko-htmlunit-2.24.jar;E:\workspace\Pilar_Repository\lib\phantomjsdriver-1.4.0.jar;E:\workspace\Pilar_Repository\lib\sac-1.3.jar;E:\workspace\Pilar_Repository\lib\selenium-server-standalone-3.3.1.jar;E:\workspace\Pilar_Repository\lib\serializer-2.7.2.jar;E:\workspace\Pilar_Repository\lib\tools.jar;E:\workspace\Pilar_Repository\lib\websocket-api-9.2.20.v20161216.jar;E:\workspace\Pilar_Repository\lib\websocket-client-9.2.20.v20161216.jar;E:\workspace\Pilar_Repository\lib\websocket-common-9.2.20.v20161216.jar;E:\workspace\Pilar_Repository\lib\xalan-2.7.2.jar;E:\workspace\Pilar_Repository\lib\xercesImpl-2.11.0.jar;E:\workspace\Pilar_Repository\lib\xml-apis-1.4.01.jar;C:\apache-ant-1.10.1\lib\ant-launcher.jar;C:\apache-ant-1.10.1\lib\ant.jar;C:\apache-ant-1.10.1\lib\ant-junit.jar;C:\apache-ant-1.10.1\lib\ant-junit4.jar" />
-    <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner AUSA.ausaCrearPartes skipNonTests=false filtertrace=true haltOnError=false haltOnFailure=false formatter=org.apache.tools.ant.taskdefs.optional.junit.OutErrSummaryJUnitResultFormatter showoutput=false outputtoformatters=true logfailedtests=true threadid=0 logtestlistenerevents=false formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,E:\workspace\Pilar_Repository\ausaCrearPartes\junit\TEST-AUSA.ausaCrearPartes.xml crashfile=E:\workspace\Pilar_Repository\junitvmwatcher4978680053794260640.properties propsfile=E:\workspace\Pilar_Repository\junit659812436171836750.properties" />
+    <property name="java.class.path" value="E:\workspace\Pilar_Repository\bin;E:\workspace\Pilar_Repository\lib\cglib-nodep-3.2.4.jar;E:\workspace\Pilar_Repository\lib\commons-codec-1.10.jar;E:\workspace\Pilar_Repository\lib\commons-exec-1.3.jar;E:\workspace\Pilar_Repository\lib\commons-io-2.5.jar;E:\workspace\Pilar_Repository\lib\commons-lang3-3.5.jar;E:\workspace\Pilar_Repository\lib\commons-logging-1.2.jar;E:\workspace\Pilar_Repository\lib\cssparser-0.9.21.jar;E:\workspace\Pilar_Repository\lib\gson-2.8.0.jar;E:\workspace\Pilar_Repository\lib\guava-21.0.jar;E:\workspace\Pilar_Repository\lib\hamcrest-core-1.3.jar;E:\workspace\Pilar_Repository\lib\hamcrest-library-1.3.jar;E:\workspace\Pilar_Repository\lib\htmlunit-2.24.jar;E:\workspace\Pilar_Repository\lib\htmlunit-core-js-2.23.jar;E:\workspace\Pilar_Repository\lib\htmlunit-driver-2.24.jar;E:\workspace\Pilar_Repository\lib\httpclient-4.5.2.jar;E:\workspace\Pilar_Repository\lib\httpcore-4.4.4.jar;E:\workspace\Pilar_Repository\lib\httpmime-4.5.2.jar;E:\workspace\Pilar_Repository\lib\javax.servlet-api-3.1.0.jar;E:\workspace\Pilar_Repository\lib\jetty-io-9.4.1.v20170120.jar;E:\workspace\Pilar_Repository\lib\jetty-util-9.4.1.v20170120.jar;E:\workspace\Pilar_Repository\lib\jna-4.1.0.jar;E:\workspace\Pilar_Repository\lib\jna-platform-4.1.0.jar;E:\workspace\Pilar_Repository\lib\junit-4.12.jar;E:\workspace\Pilar_Repository\lib\neko-htmlunit-2.24.jar;E:\workspace\Pilar_Repository\lib\phantomjsdriver-1.4.0.jar;E:\workspace\Pilar_Repository\lib\sac-1.3.jar;E:\workspace\Pilar_Repository\lib\selenium-server-standalone-3.4.0.jar;E:\workspace\Pilar_Repository\lib\serializer-2.7.2.jar;E:\workspace\Pilar_Repository\lib\tools.jar;E:\workspace\Pilar_Repository\lib\websocket-api-9.2.20.v20161216.jar;E:\workspace\Pilar_Repository\lib\websocket-client-9.2.20.v20161216.jar;E:\workspace\Pilar_Repository\lib\websocket-common-9.2.20.v20161216.jar;E:\workspace\Pilar_Repository\lib\xalan-2.7.2.jar;E:\workspace\Pilar_Repository\lib\xercesImpl-2.11.0.jar;E:\workspace\Pilar_Repository\lib\xml-apis-1.4.01.jar;C:\apache-ant-1.10.1\lib\ant-launcher.jar;C:\apache-ant-1.10.1\lib\ant.jar;C:\apache-ant-1.10.1\lib\ant-junit.jar;C:\apache-ant-1.10.1\lib\ant-junit4.jar" />
+    <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner AUSA.ausaCrearPartes skipNonTests=false filtertrace=true haltOnError=false haltOnFailure=false formatter=org.apache.tools.ant.taskdefs.optional.junit.OutErrSummaryJUnitResultFormatter showoutput=false outputtoformatters=true logfailedtests=true threadid=0 logtestlistenerevents=false formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,E:\workspace\Pilar_Repository\ausaCrearPartes\junit\TEST-AUSA.ausaCrearPartes.xml crashfile=E:\workspace\Pilar_Repository\junitvmwatcher4729972931215872153.properties propsfile=E:\workspace\Pilar_Repository\junit5322045578604288428.properties" />
     <property name="env.EXECUTOR_NUMBER" value="1" />
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification" />
     <property name="env.WINSW_SERVICE_ID" value="Jenkins" />
@@ -109,7 +109,7 @@
     <property name="debuglevel" value="source,lines,vars" />
     <property name="env.ProgramFiles" value="C:\Program Files" />
     <property name="env.ANT_HOME" value="C:\apache-ant-1.10.1" />
-    <property name="env.BUILD_URL" value="localhost:8080/job/Pilar_Repository/job/ausaCrearPartes/8/" />
+    <property name="env.BUILD_URL" value="localhost:8080/job/Pilar_Repository/job/ausaCrearPartes/9/" />
     <property name="env.PROCESSOR_REVISION" value="4f01" />
     <property name="java.io.tmpdir" value="C:\Windows\TEMP\" />
     <property name="env.CommonProgramFiles(x86)" value="C:\Program Files (x86)\Common Files" />
@@ -119,14 +119,14 @@
     <property name="env.ANT_CMD_LINE_ARGS" value=" -file ausaCrearPartes.xml ausaCrearPartes" />
     <property name="os.arch" value="amd64" />
     <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_131\jre\lib\ext;C:\Windows\Sun\Java\lib\ext" />
-    <property name="env.BUILD_ID" value="8" />
+    <property name="env.BUILD_ID" value="9" />
     <property name="env.LOCALAPPDATA" value="C:\Windows\system32\config\systemprofile\AppData\Local" />
     <property name="user.dir" value="E:\workspace\Pilar_Repository" />
     <property name="line.separator" value="&#xd;&#xa;" />
     <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM" />
     <property name="env.JENKINS_URL" value="localhost:8080/" />
     <property name="env.PATHEXT" value=".COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC" />
-    <property name="env.Path" value="C:\Program Files\Java\jdk1.8.0_131/bin;C:\apache-ant-1.10.1/bin;C:\Program Files\Java\jdk1.8.0_131/bin;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Microsoft SQL Server\100\Tools\Binn\;C:\Program Files\Microsoft SQL Server\100\Tools\Binn\;C:\Program Files\Microsoft SQL Server\100\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\100\Tools\Binn\VSShell\Common7\IDE\;C:\Program Files (x86)\Microsoft SQL Server\100\DTS\Binn\;C:\Windows\system32\config\systemprofile\.dnx\bin;C:\Program Files\Microsoft DNX\Dnvm\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\Git\cmd;C:\Program Files\TortoiseGit\bin" />
+    <property name="env.Path" value="C:\Program Files\Java\jdk1.8.0_131/bin;C:\apache-ant-1.10.1/bin;C:\Program Files\Java\jdk1.8.0_131/bin;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Microsoft SQL Server\100\Tools\Binn\;C:\Program Files\Microsoft SQL Server\100\Tools\Binn\;C:\Program Files\Microsoft SQL Server\100\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\100\Tools\Binn\VSShell\Common7\IDE\;C:\Program Files (x86)\Microsoft SQL Server\100\DTS\Binn\;C:\Windows\system32\config\systemprofile\.dnx\bin;C:\Program Files\Microsoft DNX\Dnvm\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\Git\cmd;C:\Program Files\TortoiseGit\bin;" />
     <property name="basedir" value="E:\workspace\Pilar_Repository" />
     <property name="ant.java.version" value="1.8" />
     <property name="ant.core.lib" value="C:\apache-ant-1.10.1\lib\ant.jar" />
@@ -141,12 +141,12 @@
     <property name="env.PROCESSOR_LEVEL" value="6" />
     <property name="env.NODE_LABELS" value="master" />
   </properties>
-  <testcase classname="AUSA.ausaCrearPartes" name="ausaIssuescreate" time="234.911" />
-  <system-out><![CDATA[Se ha creado parte No. 846 correctamente. Verificar archivo log crearPartesResultadosSuccess_20170518154100 con los datos creados
+  <testcase classname="AUSA.ausaCrearPartes" name="ausaIssuescreate" time="217.918" />
+  <system-out><![CDATA[Se ha creado parte No. 847 correctamente. Verificar archivo log crearPartesResultadosSuccess_20170612095450 con los datos creados
 ]]></system-out>
-  <system-err><![CDATA[Starting ChromeDriver 2.28.455520 (cc17746adff54984afff480136733114c6b3704b) on port 7754
+  <system-err><![CDATA[Starting ChromeDriver 2.29.461591 (62ebf098771772160f391d75e589dc567915b233) on port 36304
 Only local connections are allowed.
-may 18, 2017 3:41:06 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+jun 12, 2017 9:54:54 AM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: OSS
 ]]></system-err>
 </testsuite>
