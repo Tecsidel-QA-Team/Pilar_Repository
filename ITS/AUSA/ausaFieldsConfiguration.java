@@ -2,8 +2,11 @@ package AUSA;
 
 import java.io.File;
 import java.sql.Timestamp;
+import java.text.SimpleDateFormat;
 
 import org.openqa.selenium.chrome.ChromeOptions;
+
+import java.util.Calendar;
 import java.util.List;
 import java.util.Random;
 import org.apache.commons.io.FileUtils;
@@ -27,6 +30,8 @@ public class ausaFieldsConfiguration {
 	public static String roadLabel = "ctl00_ContentZone_BtnAddRoadway_IB_Label";
 	public static String otherLabel = "ctl00_ContentZone_BtnAddOther_IB_Label";
 	public static String jobOrLabel = "ctl00_ContentZone_BtnAddJobOrder_IB_Label";
+	public static Calendar calF;
+	public static SimpleDateFormat sft;
 	public static String infoLabel = "ctl00_ContentZone_BtnAddInsideInformation_IB_Label";
 	public static String inconLabel = "ctl00_ContentZone_BtnAddInconvenientSchedule_IB_Label";
 	public static String []  personsT = new String[]{"Pilar Bonilla", "Mavi Garrido", "Francisco Castro", "Miguel Angel Sanchez", "Franklyn Garcia", "Maria Blanco", "Oscar Bailon", "Fatima Romano", "Marc Navarro"};
@@ -248,5 +253,13 @@ public class ausaFieldsConfiguration {
      	public static String dniLetra (int dni){
   		  return String.valueOf(dni)+(NIF_STRING_ASOCIATION.charAt(dni % 23));
   	  }
+     	
+     	public static void dateSel(int from, int toD) throws Exception{
+				calF = Calendar.getInstance();
+			 sft = new SimpleDateFormat("dd/MM/yyyy");
+			calF.set(ranNumbr(2017,2018), ranNumbr(from,toD), ranNumbr(1,31));
+		
+		}
+     	
       	
 }

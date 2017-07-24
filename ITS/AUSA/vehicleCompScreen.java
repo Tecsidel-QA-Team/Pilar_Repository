@@ -8,11 +8,6 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.support.ui.Select;
 
 public class vehicleCompScreen extends ausaFieldsConfiguration{
-	public static int rYear;
-	public static int rDay;
-	public static String sDay;
-	public static String sMonth;
-	public static int rMonth;
 	public static String nameLast = "_txt_name_box_data";
 	public static String located = "_cmb_city_cmb_dropdown";
 	public static String gender = "_cmb_gender_cmb_dropdown";
@@ -49,49 +44,16 @@ public class vehicleCompScreen extends ausaFieldsConfiguration{
 			driver.findElement(By.id("ctl00_ContentZone_ctrlVehicle_txt_isurance_policy_box_data")).sendKeys("Mafre" );
 			selectDropDownClick2("ctl00_ContentZone_ctrlVehicle_cmb_company_cmb_dropdown");
 			selectDropDownClick2("ctl00_ContentZone_ctrlVehicle_cmb_isurance_cover_cmb_dropdown");
-			rDay = ranYearNumbr(1,31);			
-			rYear = ranYearNumbr(2008,2017);
-			rMonth = ranYearNumbr(1,12);
-			if (rDay < 10){
-				sDay = "0".concat(String.valueOf(rDay));
-			}else{
-				sDay = String.valueOf(rDay);
-			}
-			if (rYear == 2008 || rYear == 2012 || rYear == 2016 ){
-				if (rMonth == 2){
-				rDay = ranYearNumbr(1,29);
-				}
-				if (rDay < 10){
-					sDay = "0".concat(String.valueOf(rDay));
-				}else{
-					sDay = String.valueOf(rDay);
-				}
-			}
-			if (rMonth < 10){
-				sMonth = "0".concat(String.valueOf(rMonth));
-			}else{
-				sMonth = String.valueOf(rMonth);
-			}
-			driver.findElement(By.id("ctl00_ContentZone_ctrlVehicle_dt_isurance_expiry_box_date")).sendKeys(sDay+"/"+sMonth+"/"+rYear);
+			dateSel(2008,2007);			
+			Thread.sleep(500);
+			driver.findElement(By.id("ctl00_ContentZone_ctrlVehicle_dt_isurance_expiry_box_date")).sendKeys(sft.format(calF));
 			driver.findElement(By.id("ctl00_ContentZone_ctrlVehicle_check_towedUnit")).click();
 			
 			selectDropDownClick("ctl00_ContentZone_ctrlVehicle_cmb_coupled_type_cmb_dropdown");
 			selectDropDownClick("ctl00_ContentZone_ctrlVehicle_cmb_coupled_company_cmb_dropdown");
-			
-			rDay = ranYearNumbr(1,31);			
-			rMonth = ranYearNumbr(3,12);
-			rYear = ranYearNumbr(2017,2019);
-			if (rDay < 10){
-				sDay = "0".concat(String.valueOf(rDay));
-			}else{
-				sDay = String.valueOf(rDay);
-			}
-			if (rMonth < 10){
-				sMonth = "0".concat(String.valueOf(rMonth));
-			}else{
-				sMonth = String.valueOf(rMonth);
-			}
-			driver.findElement(By.id("ctl00_ContentZone_ctrlVehicle_dt_coupled_expiry_box_date")).sendKeys(sDay+"/"+sMonth+"/"+rYear);
+			dateSel(2017,2019);
+			Thread.sleep(500);
+			driver.findElement(By.id("ctl00_ContentZone_ctrlVehicle_dt_coupled_expiry_box_date")).sendKeys(sft.format(calF));
 			driver.findElement(By.id("ctl00_ContentZone_ctrlVehicle_mc_coupled_pd_img_expand")).click();			
 			ranSelection("ctl00_ContentZone_ctrlVehicle_mc_coupled_pd_ctl", 47);
 			ranClick("ctl00_ContentZone_ctrlVehicle_mc_coupled_pd_ctl","0",ad,caMer);			
@@ -120,30 +82,9 @@ public class vehicleCompScreen extends ausaFieldsConfiguration{
 			selectDropDownClick2("ctl00_ContentZone_ctrlVehicle_cmb_apparent_status_cmb_dropdown");
 			new Select (driver.findElement(By.id("ctl00_ContentZone_ctrlVehicle_cmb_driver_gender_cmb_dropdown"))).selectByIndex(genderT[nameGender]);
 			selectDropDownClick2("ctl00_ContentZone_ctrlVehicle_cmb_driver_gender_cmb_dropdown");
-			rDay = ranYearNumbr(1,31);			
-			rYear = ranYearNumbr(1970,1980);
-			rMonth = ranYearNumbr(1,12);
-			if (rDay < 10){
-				sDay = "0".concat(String.valueOf(rDay));
-			}else{
-				sDay = String.valueOf(rDay);
-			}
-			if (rYear == 1972 || rYear == 1976){
-				if (rMonth == 2){
-				rDay = ranYearNumbr(1,29);
-				}
-				if (rDay < 10){
-					sDay = "0".concat(String.valueOf(rDay));
-				}else{
-					sDay = String.valueOf(rDay);
-				}
-			}
-			if (rMonth < 10){
-				sMonth = "0".concat(String.valueOf(rMonth));
-			}else{
-				sMonth = String.valueOf(rMonth);
-			}
-			driver.findElement(By.id("ctl00_ContentZone_ctrlVehicle_dt_driver_birthdate_box_date")).sendKeys(sDay+"/"+sMonth+"/"+rYear);
+			dateSel(1970,1980);
+			Thread.sleep(500);;
+			driver.findElement(By.id("ctl00_ContentZone_ctrlVehicle_dt_driver_birthdate_box_date")).sendKeys(sft.format(calF));
 			Thread.sleep(1000);
 			ocupantesSection();
 			Thread.sleep(1000);
